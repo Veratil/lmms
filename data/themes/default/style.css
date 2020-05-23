@@ -652,6 +652,7 @@ TrackContainerView QLabel
 
 /* common pattern colors */
 TrackContentObjectView   {
+	qproperty-mouseHotspotHand: 7px 1px;
 	qproperty-mutedColor: rgba(255,255,255,100);
 	qproperty-mutedBackgroundColor: #373d48;
 	qproperty-selectedColor: #006B65;

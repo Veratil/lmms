@@ -198,6 +198,11 @@ class TrackContentObjectView : public selectableObject, public ModelView
 	Q_OBJECT
 
 // theming qproperties
+	/* We have to use a QSize here because using QPoint isn't supported.
+	   width  -> x
+	   height -> y
+	*/
+	Q_PROPERTY(QSize mouseHotspotHand READ mouseHotspotHand WRITE setMouseHotspotHand)
 	Q_PROPERTY( QColor mutedColor READ mutedColor WRITE setMutedColor )
 	Q_PROPERTY( QColor mutedBackgroundColor READ mutedBackgroundColor WRITE setMutedBackgroundColor )
 	Q_PROPERTY( QColor selectedColor READ selectedColor WRITE setSelectedColor )
@@ -231,6 +236,7 @@ public:
 	QColor textBackgroundColor() const;
 	QColor textShadowColor() const;
 	QColor BBPatternBackground() const;
+	QSize mouseHotspotHand() const; // QSize must be used because QPoint isn't supported by property system
 	bool gradient() const;
 	void setMutedColor( const QColor & c );
 	void setMutedBackgroundColor( const QColor & c );
@@ -239,6 +245,7 @@ public:
 	void setTextBackgroundColor( const QColor & c );
 	void setTextShadowColor( const QColor & c );
 	void setBBPatternBackground( const QColor & c );
+	void setMouseHotspotHand(const QSize & s); // QSize must be used because QPoint isn't supported by property system
 	void setGradient( const bool & b );
 
 	// access needsUpdate member variable
@@ -316,6 +323,7 @@ private:
 	QColor m_textShadowColor;
 	QColor m_BBPatternBackground;
 	bool m_gradient;
+	QSize m_mouseHotspotHand; // QSize must be used because QPoint isn't supported by property system
 
  	bool m_needsUpdate;
 	inline void setInitialPos( QPoint pos )

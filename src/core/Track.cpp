@@ -282,6 +282,7 @@ TrackContentObjectView::TrackContentObjectView( TrackContentObject * tco,
 	m_textShadowColor( 0, 0, 0 ),
 	m_BBPatternBackground( 0, 0, 0 ),
 	m_gradient( true ),
+	m_mouseHotspotHand(0, 0),
 	m_needsUpdate( true )
 {
 	if( s_textFloat == NULL )
@@ -293,7 +294,11 @@ TrackContentObjectView::TrackContentObjectView( TrackContentObject * tco,
 	setAttribute( Qt::WA_OpaquePaintEvent, true );
 	setAttribute( Qt::WA_DeleteOnClose, true );
 	setFocusPolicy( Qt::StrongFocus );
-	setCursor( QCursor( embed::getIconPixmap( "hand" ), 3, 3 ) );
+	/* QSize must be used because QPoint isn't supported by property system
+	   width  -> x
+	   height -> y
+	*/
+	setCursor( QCursor( embed::getIconPixmap( "hand" ), m_mouseHotspotHand.width(), m_mouseHotspotHand.height() ) );
 	move( 0, 0 );
 	show();
 
@@ -313,7 +318,6 @@ TrackContentObjectView::TrackContentObjectView( TrackContentObject * tco,
 	updateLength();
 	updatePosition();
 }
-
 
 
 
@@ -392,6 +396,13 @@ QColor TrackContentObjectView::textShadowColor() const
 QColor TrackContentObjectView::BBPatternBackground() const
 { return m_BBPatternBackground; }
 
+/* QSize must be used because QPoint isn't supported by property system
+   width  -> x
+   height -> y
+*/
+QSize TrackContentObjectView::mouseHotspotHand() const
+{ return m_mouseHotspotHand; }
+
 bool TrackContentObjectView::gradient() const
 { return m_gradient; }
 
@@ -418,6 +429,16 @@ void TrackContentObjectView::setTextShadowColor( const QColor & c )
 
 void TrackContentObjectView::setBBPatternBackground( const QColor & c )
 { m_BBPatternBackground = QColor( c ); }
+
+/* QSize must be used because QPoint isn't supported by property system
+   width  -> x
+   height -> y
+*/
+void TrackContentObjectView::setMouseHotspotHand(const QSize & s)
+{
+	m_mouseHotspotHand = QSize(s);
+	this->setCursor(QCursor(embed::getIconPixmap("hand"), s.width(), s.height()));
+}
 
 void TrackContentObjectView::setGradient( const bool & b )
 { m_gradient = b; }
@@ -609,7 +630,11 @@ void TrackContentObjectView::leaveEvent( QEvent * e )
 {
 	if( cursor().shape() != Qt::BitmapCursor )
 	{
-		setCursor( QCursor( embed::getIconPixmap( "hand" ), 3, 3 ) );
+		/* QSize must be used because QPoint isn't supported by property system
+		   width  -> x
+		   height -> y
+		*/
+		setCursor( QCursor( embed::getIconPixmap( "hand" ), m_mouseHotspotHand.width(), m_mouseHotspotHand.height() ) );
 	}
 	if( e != NULL )
 	{
