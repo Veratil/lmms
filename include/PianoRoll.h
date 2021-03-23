@@ -229,6 +229,7 @@ private:
 	enum Actions
 	{
 		ActionNone,
+		ActionRemoveNote,
 		ActionMoveNote,
 		ActionResizeNote,
 		ActionSelectNotes,
@@ -425,8 +426,6 @@ private:
 	EditModes m_editMode;
 	EditModes m_ctrlMode; // mode they were in before they hit ctrl
 	EditModes m_knifeMode; // mode they where in before entering knife mode
-
-	bool m_mouseDownRight; //true if right click is being held down
 
 	TimeLineWidget * m_timeLine;
 	bool m_scrollBack;
