@@ -310,7 +310,7 @@ void TimeLineWidget::mousePressEvent( QMouseEvent* event )
 	{
 		return;
 	}
-	if( event->button() == Qt::LeftButton  && !(event->modifiers() & Qt::ShiftModifier) )
+	if (event->button() == Qt::LeftButton && !(event->modifiers() & Qt::ControlModifier))
 	{
 		m_action = MovePositionMarker;
 		if( event->x() - m_xOffset < s_posMarkerPixmap->width() )
@@ -322,7 +322,7 @@ void TimeLineWidget::mousePressEvent( QMouseEvent* event )
 			m_moveXOff = s_posMarkerPixmap->width() / 2;
 		}
 	}
-	else if( event->button() == Qt::LeftButton  && (event->modifiers() & Qt::ShiftModifier) )
+	else if (event->button() == Qt::LeftButton && (event->modifiers() & Qt::ControlModifier))
 	{
 		m_action = SelectSongTCO;
 		m_initalXSelect = event->x();

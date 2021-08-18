@@ -160,25 +160,26 @@ protected:
 	void mouseDoubleClickEvent( QMouseEvent * me ) override;
 	void mouseReleaseEvent( QMouseEvent * me ) override;
 	void mouseMoveEvent( QMouseEvent * me ) override;
+	void mouseMoveEvent();
 	void paintEvent( QPaintEvent * pe ) override;
 	void resizeEvent( QResizeEvent * re ) override;
 	void wheelEvent( QWheelEvent * we ) override;
 	void focusOutEvent( QFocusEvent * ) override;
 	void focusInEvent( QFocusEvent * ) override;
 
+	int getTick(int x) const;
 	int getKey( int y ) const;
-	void drawNoteRect( QPainter & p, int x, int y,
-					int  width, const Note * n, const QColor & noteCol, const QColor & noteTextColor,
+	int xCoordOfTick(int tick) const;
+	int yCoordOfKey(int key) const;
+
+	void drawNoteRect( QPainter & p, const Note * n, const QColor & noteCol, const QColor & noteTextColor,
 					const QColor & selCol, const int noteOpc, const bool borderless, bool drawNoteName );
-	void removeSelection();
 	void selectAll();
 	NoteVector getSelectedNotes() const;
 	void selectNotesOnKey();
 
 	// for entering values with dblclick in the vol/pan bars
 	void enterValue( NoteVector* nv );
-
-	void updateYScroll();
 
 protected slots:
 	void play();
@@ -218,7 +219,8 @@ protected slots:
 
 	void hidePattern( Pattern* pattern );
 
-	void selectRegionFromPixels( int xStart, int xEnd );
+	void selectRegionFromTimeline(int xStart, int xEnd);
+	void finishSelectFromTimeline();
 
 	void clearGhostPattern();
 	void glueNotes();
@@ -245,7 +247,6 @@ private:
 		ActionSelectNotes,
 		ActionChangeNoteProperty,
 		ActionResizeNoteEditArea,
-		ActionKnife,
 		ActionPlayKeys
 	};
 
@@ -280,8 +281,9 @@ private:
 	//	gridFree
 	};
 
-	enum PianoRollArea
+	enum class PianoRollArea
 	{
+		Margin,
 		Keys,
 		Notes,
 		NoteProperties,
@@ -296,7 +298,6 @@ private:
 
 	QList<int> m_markedSemiTones;
 	QMenu * m_semiToneMarkerMenu; // when you right click on the key area
-	int m_pianoKeySelected;
 
 	PianoRoll();
 	PianoRoll( const PianoRoll & );
@@ -320,11 +321,13 @@ private:
 	void pauseChordNotes(int key);
 	void handleAftertouch(int key, int velocity);
 
-	void setKnifeAction();
-	void cancelKnifeAction();
+	void cancelDragAction();
+	void endDragAction();
 
 	void updateScrollbars();
 	void updatePositionLineHeight();
+	void updateNoteEditHeight();
+	void updateCursor();
 
 	QList<int> getAllOctavesForKey( int keyToMirror ) const;
 
@@ -335,8 +338,9 @@ private:
 	int noteEditRight() const;
 	int noteEditLeft() const;
 	int noteAreaWidth() const;
+	int noteAreaHeight() const;
 
-	void dragNotes(int x, int y, bool alt, bool shift, bool ctrl);
+	void dragNotes();
 
 	static const int cm_scrollAmtHoriz = 10;
 	static const int cm_scrollAmtVert = 1;
@@ -382,34 +386,30 @@ private:
 	bool m_recording;
 	QList<Note> m_recordingNotes;
 
+	//! mouse button being held down
+	Qt::MouseButton m_mouseDownButton = Qt::NoButton;
+	//! note being dragged
 	Note * m_currentNote;
 	Actions m_action;
 	NoteEditMode m_noteEditMode;
 	GridMode m_gridMode;
 
-	int m_selectStartTick;
-	int m_selectedTick;
-	int m_selectStartKey;
-	int m_selectedKeys;
-
 	// boundary box around all selected notes when dragging
-	int m_moveBoundaryLeft;
-	int m_moveBoundaryTop;
-	int m_moveBoundaryRight;
-	int m_moveBoundaryBottom;
+	int m_moveBoundaryLeft = 0;
+	int m_moveBoundaryTop = 0;
+	int m_moveBoundaryBottom = 0;
 
-	// remember where the scrolling started when dragging so that
-	// we can handle dragging while scrolling with arrow keys
-	int m_mouseDownKey;
-	int m_mouseDownTick;
+	// where dragging started
+	int m_mouseDownKey = 0;
+	int m_mouseDownTick = 0;
 
-	// remember the last x and y of a mouse movement
-	int m_lastMouseX;
-	int m_lastMouseY;
+	// last mouse position
+	int m_hoverTick = 0;
+	int m_hoverKey = 0;
 
-	// x,y of when the user starts a drag
-	int m_moveStartX;
-	int m_moveStartY;
+	bool m_ctrlPressed = false;
+	bool m_shiftPressed = false;
+	bool m_altPressed = false;
 
 	int m_notesEditHeight;
 	int m_userSetNotesEditHeight;
@@ -431,12 +431,11 @@ private:
 	//When resizing several notes, we want to calculate a common minimum length
 	TimePos m_minResizeLen;
 
-	int m_startKey; // first key when drawing
-	int m_lastKey;
+	int m_startKey; //!< bottom-most visible piano key
+	int m_lastKey; //!< last clicked piano key
 
 	EditModes m_editMode;
-	EditModes m_ctrlMode; // mode they were in before they hit ctrl
-	EditModes m_knifeMode; // mode they where in before entering knife mode
+	EditModes m_lastEditMode; // last non-temporary edit mode
 
 	TimeLineWidget * m_timeLine;
 	bool m_scrollBack;
@@ -448,17 +447,17 @@ private:
 	Note * noteUnderMouse();
 
 	// turn a selection rectangle into selected notes
-	void computeSelectedNotes( bool shift );
+	void computeSelectedNotes();
 	void clearSelectedNotes();
 
 	PianoRollArea getPianoRollAreaIn(const int x, const int y);
+	PianoRollArea getPianoRollAreaIn();
 
 	// did we start a mouseclick with shift pressed
 	bool m_startedWithShift;
 
-	// Variable that holds the position in ticks for the knife action
-	int m_knifeTickPos;
-	void updateKnifePos(QMouseEvent* me);
+	// Position in ticks for the knife action (and cut line)
+	int m_knifeTickPos = 0;
 
 	friend class PianoRollWindow;
 
