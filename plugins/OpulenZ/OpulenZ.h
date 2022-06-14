@@ -27,8 +27,8 @@
 
 #include <QMutex>
 
-#include "AutomatableModel.h"
-#include "Instrument.h"
+#include "core/AutomatableModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 
 class automatableButtonGroup;

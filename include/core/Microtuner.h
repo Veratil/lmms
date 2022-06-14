@@ -25,9 +25,9 @@
 #ifndef MICROTUNER_H
 #define MICROTUNER_H
 
-#include "AutomatableModel.h"
-#include "ComboBoxModel.h"
-#include "JournallingObject.h"
+#include "core/AutomatableModel.h"
+#include "core/ComboBoxModel.h"
+#include "core/JournallingObject.h"
 
 class LMMS_EXPORT Microtuner : public Model, public JournallingObject
 {

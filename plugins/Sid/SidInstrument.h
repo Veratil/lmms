@@ -27,8 +27,8 @@
 #ifndef _SID_H
 #define _SID_H
 
-#include "AutomatableModel.h"
-#include "Instrument.h"
+#include "core/AutomatableModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 
 

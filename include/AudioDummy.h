@@ -25,10 +25,10 @@
 #ifndef AUDIO_DUMMY_H
 #define AUDIO_DUMMY_H
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
-#include "AudioEngine.h"
-#include "MicroTimer.h"
+#include "core/AudioEngine.h"
+#include "core/MicroTimer.h"
 
 
 class AudioDummy : public QThread, public AudioDevice

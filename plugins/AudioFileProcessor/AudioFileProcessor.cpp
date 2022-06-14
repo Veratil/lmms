@@ -30,19 +30,19 @@
 
 #include <samplerate.h>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "ComboBox.h"
-#include "ConfigManager.h"
-#include "DataFile.h"
-#include "Engine.h"
+#include "core/ConfigManager.h"
+#include "core/DataFile.h"
+#include "core/Engine.h"
 #include "gui_templates.h"
 #include "InstrumentTrack.h"
-#include "NotePlayHandle.h"
-#include "PathUtil.h"
+#include "core/NotePlayHandle.h"
+#include "core/PathUtil.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 #include "embed.h"
 #include "plugin_export.h"

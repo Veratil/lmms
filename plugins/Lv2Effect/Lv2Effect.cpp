@@ -25,7 +25,7 @@
 #include "Lv2Effect.h"
 
 
-#include "Lv2SubPluginFeatures.h"
+#include "core/lv2/Lv2SubPluginFeatures.h"
 
 #include "embed.h"
 #include "plugin_export.h"

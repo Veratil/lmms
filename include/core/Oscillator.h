@@ -30,12 +30,12 @@
 #include <fftw3.h>
 #include <cstdlib>
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "lmms_constants.h"
 #include "lmmsconfig.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "OscillatorConstants.h"
-#include "SampleBuffer.h"
+#include "core/SampleBuffer.h"
 
 class IntModel;
 

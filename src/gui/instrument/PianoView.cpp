@@ -46,13 +46,13 @@
 
 #include "AutomatableModelView.h"
 #include "PianoView.h"
-#include "Piano.h"
+#include "core/Piano.h"
 #include "CaptionMenu.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "gui_templates.h"
 #include "InstrumentTrack.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
 
 

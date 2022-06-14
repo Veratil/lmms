@@ -22,7 +22,7 @@
  *
  */
 
-#include "AudioOss.h"
+#include "core/audio/AudioOss.h"
 
 #ifdef LMMS_HAVE_OSS
 
@@ -32,8 +32,8 @@
 
 #include "endian_handling.h"
 #include "LcdSpinBox.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "gui_templates.h"
 
 #ifdef LMMS_HAVE_UNISTD_H
@@ -55,7 +55,7 @@
 #endif
 
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 
 static const QString PATH_DEV_DSP =

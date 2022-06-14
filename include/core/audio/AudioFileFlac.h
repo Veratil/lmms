@@ -27,7 +27,7 @@
 
 #include "lmmsconfig.h"
 
-#include "AudioFileDevice.h"
+#include "core/audio/AudioFileDevice.h"
 #include <sndfile.h>
 
 class AudioFileFlac: public AudioFileDevice

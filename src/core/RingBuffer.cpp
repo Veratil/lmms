@@ -23,10 +23,10 @@
  *
  */
 
-#include "RingBuffer.h"
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "MixHelpers.h"
+#include "core/RingBuffer.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/MixHelpers.h"
 
  
 RingBuffer::RingBuffer( f_cnt_t size ) : 

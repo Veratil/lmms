@@ -32,10 +32,10 @@
 #include <lilv/lilv.h>
 #include <memory>
 
-#include "DataFile.h"
-#include "LinkedModelGroups.h"
+#include "core/DataFile.h"
+#include "core/LinkedModelGroups.h"
 #include "lmms_export.h"
-#include "Plugin.h"
+#include "core/Plugin.h"
 
 class Lv2Proc;
 class PluginIssue;

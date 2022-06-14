@@ -29,7 +29,7 @@
 #include <QMenu>
 #include <QWidget>
 
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 #include "AutomatableModelView.h"
 
 class LMMS_EXPORT ComboBox : public QWidget, public IntModelView

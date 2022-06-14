@@ -22,7 +22,7 @@
  *
  */
 
-#include "Scale.h"
+#include "core/Scale.h"
 
 #include <cmath>
 #include <QDomElement>

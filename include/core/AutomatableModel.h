@@ -30,12 +30,12 @@
 #include <QMap>
 #include <QMutex>
 
-#include "JournallingObject.h"
-#include "Model.h"
-#include "TimePos.h"
-#include "ValueBuffer.h"
+#include "core/JournallingObject.h"
+#include "core/Model.h"
+#include "core/TimePos.h"
+#include "core/ValueBuffer.h"
 #include "core/MemoryManager.h"
-#include "ModelVisitor.h"
+#include "core/ModelVisitor.h"
 
 // simple way to map a property of a view to a model
 #define mapPropertyFromModelPtr(type,getfunc,setfunc,modelname)	\

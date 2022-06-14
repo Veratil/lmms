@@ -24,7 +24,7 @@
  */
 
 
-#include "Plugin.h"
+#include "core/Plugin.h"
 #include "vstbase_export.h"
 
 extern "C"

@@ -23,7 +23,7 @@
  */
 
 
-#include "Lv2UridMap.h"
+#include "core/lv2/Lv2UridMap.h"
 
 #ifdef LMMS_HAVE_LV2
 

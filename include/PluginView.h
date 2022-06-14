@@ -27,7 +27,7 @@
 
 #include <QWidget>
 
-#include "Plugin.h"
+#include "core/Plugin.h"
 #include "ModelView.h"
 
 

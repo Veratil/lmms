@@ -26,7 +26,7 @@
 #include <QPainterPath>
 #include <QWidget>
 
-#include "fft_helpers.h"
+#include "core/fft_helpers.h"
 #include "lmms_basics.h"
 
 

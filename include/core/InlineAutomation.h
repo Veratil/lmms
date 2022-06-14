@@ -25,8 +25,8 @@
 #ifndef INLINE_AUTOMATION_H
 #define INLINE_AUTOMATION_H
 
-#include "AutomationNode.h"
-#include "AutomationClip.h"
+#include "core/AutomationNode.h"
+#include "core/AutomationClip.h"
 #include "shared_object.h"
 
 

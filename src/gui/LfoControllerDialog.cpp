@@ -27,7 +27,7 @@
 #include "embed.h"
 
 
-#include "LfoController.h"
+#include "core/LfoController.h"
 #include "Knob.h"
 #include "TempoSyncKnob.h"
 #include "PixmapButton.h"

@@ -25,11 +25,11 @@
 #ifndef INSTRUMENT_FUNCTIONS_H
 #define INSTRUMENT_FUNCTIONS_H
 
-#include "JournallingObject.h"
+#include "core/JournallingObject.h"
 #include "lmms_basics.h"
-#include "AutomatableModel.h"
-#include "TempoSyncKnobModel.h"
-#include "ComboBoxModel.h"
+#include "core/AutomatableModel.h"
+#include "core/TempoSyncKnobModel.h"
+#include "core/ComboBoxModel.h"
 
 
 class InstrumentTrack;

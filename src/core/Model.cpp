@@ -22,7 +22,7 @@
  *
  */
 
-#include "Model.h"
+#include "core/Model.h"
 
 
 QString Model::fullDisplayName() const

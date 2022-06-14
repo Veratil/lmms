@@ -25,7 +25,7 @@
 #ifndef SAMPLE_CLIP_H
 #define SAMPLE_CLIP_H
 
-#include "Clip.h"
+#include "core/Clip.h"
 
 class SampleBuffer;
 

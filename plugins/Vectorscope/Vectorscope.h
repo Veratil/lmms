@@ -24,7 +24,7 @@
 #ifndef VECTORSCOPE_H
 #define VECTORSCOPE_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "LocklessRingBuffer.h"
 #include "VecControls.h"
 

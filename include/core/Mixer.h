@@ -25,9 +25,9 @@
 #ifndef MIXER_H
 #define MIXER_H
 
-#include "Model.h"
-#include "EffectChain.h"
-#include "JournallingObject.h"
+#include "core/Model.h"
+#include "core/EffectChain.h"
+#include "core/JournallingObject.h"
 #include "ThreadableJob.h"
 
 #include <atomic>

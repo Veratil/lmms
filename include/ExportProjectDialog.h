@@ -31,8 +31,8 @@
 #include <memory>
 #include "ui_export_project.h"
 
-#include "ProjectRenderer.h"
-#include "RenderManager.h"
+#include "core/ProjectRenderer.h"
+#include "core/RenderManager.h"
 
 class ExportProjectDialog : public QDialog, public Ui::ExportProjectDialog
 {

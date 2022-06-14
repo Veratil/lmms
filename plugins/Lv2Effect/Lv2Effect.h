@@ -25,7 +25,7 @@
 #ifndef LV2_EFFECT_H
 #define LV2_EFFECT_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "Lv2FxControls.h"
 
 class Lv2Effect : public Effect

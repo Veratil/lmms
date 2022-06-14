@@ -28,15 +28,15 @@
 
 #include <vector>
 
-#include "ComboBoxModel.h"
-#include "Instrument.h"
+#include "core/ComboBoxModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "TempoSyncKnob.h"
 #include "PixmapButton.h"
-#include "Oscillator.h"
+#include "core/Oscillator.h"
 #include "lmms_math.h"
-#include "BandLimitedWave.h"
+#include "core/BandLimitedWave.h"
 
 class ComboBox;
 

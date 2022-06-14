@@ -32,8 +32,8 @@
 
 #include <vector>
 
-#include "AutomationNode.h"
-#include "Clip.h"
+#include "core/AutomationNode.h"
+#include "core/Clip.h"
 
 
 class AutomationTrack;

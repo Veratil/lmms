@@ -23,7 +23,7 @@
  *
  */
 
-#include "base64.h"
+#include "core/base64.h"
 
 #include <QBuffer>
 #include <QDataStream>

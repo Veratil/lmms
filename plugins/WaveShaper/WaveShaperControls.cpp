@@ -28,10 +28,10 @@
 
 #include "WaveShaperControls.h"
 #include "WaveShaper.h"
-#include "base64.h"
+#include "core/base64.h"
 #include "Graph.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 
 
 #define onedB 1.1220184543019633f

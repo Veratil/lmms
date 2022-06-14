@@ -23,7 +23,7 @@
  *
  */
 
-#include "AudioFileMP3.h"
+#include "core/audio/AudioFileMP3.h"
 
 #ifdef LMMS_HAVE_MP3LAME
 

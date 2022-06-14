@@ -22,12 +22,12 @@
  *
  */
 
-#include "LinkedModelGroups.h"
+#include "core/LinkedModelGroups.h"
 
 #include <QDomDocument>
 #include <QDomElement>
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 
 
 

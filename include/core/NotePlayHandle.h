@@ -29,9 +29,9 @@
 #include <memory>
 
 #include "BasicFilters.h"
-#include "Note.h"
-#include "PlayHandle.h"
-#include "Track.h"
+#include "core/Note.h"
+#include "core/PlayHandle.h"
+#include "core/Track.h"
 #include "core/MemoryManager.h"
 
 class QReadWriteLock;

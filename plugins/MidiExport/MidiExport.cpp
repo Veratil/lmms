@@ -27,8 +27,8 @@
 
 #include "MidiExport.h"
 
-#include "TrackContainer.h"
-#include "DataFile.h"
+#include "core/TrackContainer.h"
+#include "core/DataFile.h"
 #include "InstrumentTrack.h"
 #include "LocaleHelper.h"
 #include "PatternTrack.h"

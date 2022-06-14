@@ -22,8 +22,8 @@
  *
  */
 
-#include "SampleBuffer.h"
-#include "Oscillator.h"
+#include "core/SampleBuffer.h"
+#include "core/Oscillator.h"
 
 #include <algorithm>
 
@@ -49,15 +49,15 @@
 #endif
 
 
-#include "AudioEngine.h"
-#include "base64.h"
-#include "ConfigManager.h"
-#include "DrumSynth.h"
+#include "core/AudioEngine.h"
+#include "core/base64.h"
+#include "core/ConfigManager.h"
+#include "core/DrumSynth.h"
 #include "endian_handling.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
-#include "Note.h"
-#include "PathUtil.h"
+#include "core/Note.h"
+#include "core/PathUtil.h"
 
 #include "FileDialog.h"
 

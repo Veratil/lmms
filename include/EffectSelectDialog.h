@@ -29,7 +29,7 @@
 #include <QSortFilterProxyModel>
 #include <QStandardItemModel>
 
-#include "Effect.h"
+#include "core/Effect.h"
 
 
 namespace Ui { class EffectSelectDialog; }

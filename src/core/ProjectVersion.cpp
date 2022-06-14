@@ -25,7 +25,7 @@
  */
 
 
-#include "ProjectVersion.h"
+#include "core/ProjectVersion.h"
 
 
 

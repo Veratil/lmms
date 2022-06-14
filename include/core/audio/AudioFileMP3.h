@@ -30,7 +30,7 @@
 
 #ifdef LMMS_HAVE_MP3LAME
 
-#include "AudioFileDevice.h"
+#include "core/audio/AudioFileDevice.h"
 
 #include "lame/lame.h"
 

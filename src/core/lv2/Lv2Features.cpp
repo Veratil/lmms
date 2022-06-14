@@ -22,14 +22,14 @@
  *
  */
 
-#include "Lv2Features.h"
+#include "core/lv2/Lv2Features.h"
 
 #ifdef LMMS_HAVE_LV2
 
 #include <QtGlobal>
 
-#include "Engine.h"
-#include "Lv2Manager.h"
+#include "core/Engine.h"
+#include "core/lv2/Lv2Manager.h"
 
 
 bool Lv2Features::isFeatureSupported(const char* featName)

@@ -23,9 +23,9 @@
  *
  */
 
-#include "TimePos.h"
+#include "core/TimePos.h"
 
-#include "MeterModel.h"
+#include "core/MeterModel.h"
 
 TimeSig::TimeSig( int num, int denom ) :
 	m_num(num),

@@ -18,7 +18,7 @@
  *
  */
 
-#include "StepRecorder.h"
+#include "core/StepRecorder.h"
 
 #include <QKeyEvent>
 

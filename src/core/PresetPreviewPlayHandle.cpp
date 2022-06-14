@@ -24,14 +24,14 @@
 
 #include <QFileInfo>
 
-#include "PresetPreviewPlayHandle.h"
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "Instrument.h"
+#include "core/PresetPreviewPlayHandle.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/Instrument.h"
 #include "InstrumentTrack.h"
-#include "PluginFactory.h"
-#include "ProjectJournal.h"
-#include "TrackContainer.h"
+#include "core/PluginFactory.h"
+#include "core/ProjectJournal.h"
+#include "core/TrackContainer.h"
 
 #include <atomic>
 

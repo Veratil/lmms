@@ -27,7 +27,7 @@
 #ifndef DYNPROC_H
 #define DYNPROC_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "DynamicsProcessorControls.h"
 
 class RmsHelper;

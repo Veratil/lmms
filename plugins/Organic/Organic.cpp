@@ -29,12 +29,12 @@
 #include <QDomElement>
 
 
-#include "Engine.h"
-#include "AudioEngine.h"
+#include "core/Engine.h"
+#include "core/AudioEngine.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
-#include "NotePlayHandle.h"
-#include "Oscillator.h"
+#include "core/NotePlayHandle.h"
+#include "core/Oscillator.h"
 #include "PixmapButton.h"
 
 #include "embed.h"

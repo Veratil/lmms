@@ -33,16 +33,16 @@
 #include <lilv/lilv.h>
 #include <lv2/lv2plug.in/ns/ext/port-props/port-props.h>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "Controls.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "embed.h"
 #include "gui_templates.h"
-#include "Lv2ControlBase.h"
-#include "Lv2Manager.h"
-#include "Lv2Proc.h"
-#include "Lv2Ports.h"
+#include "core/lv2/Lv2ControlBase.h"
+#include "core/lv2/Lv2Manager.h"
+#include "core/lv2/Lv2Proc.h"
+#include "core/lv2/Lv2Ports.h"
 #include "MainWindow.h"
 #include "SubWindow.h"
 

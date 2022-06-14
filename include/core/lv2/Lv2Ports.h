@@ -34,7 +34,7 @@
 #include <vector>
 
 #include "lmms_basics.h"
-#include "PluginIssue.h"
+#include "core/PluginIssue.h"
 
 struct ConnectPortVisitor;
 typedef struct LV2_Evbuf_Impl LV2_Evbuf;

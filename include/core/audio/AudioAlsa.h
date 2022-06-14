@@ -35,7 +35,7 @@
 #include <alsa/asoundlib.h>
 #include <QThread>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 
 
 class AudioAlsa : public QThread, public AudioDevice

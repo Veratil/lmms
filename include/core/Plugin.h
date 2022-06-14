@@ -28,8 +28,8 @@
 #include <QStringList>
 #include <QMap>
 
-#include "JournallingObject.h"
-#include "Model.h"
+#include "core/JournallingObject.h"
+#include "core/Model.h"
 #include "core/MemoryManager.h"
 
 

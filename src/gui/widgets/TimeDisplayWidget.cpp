@@ -27,8 +27,8 @@
 #include "TimeDisplayWidget.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 
 
 

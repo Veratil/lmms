@@ -23,8 +23,8 @@
  *
  */
 
-#include "AutomationNode.h"
-#include "AutomationClip.h"
+#include "core/AutomationNode.h"
+#include "core/AutomationClip.h"
 
 
 // Dummy constructor for the QMap

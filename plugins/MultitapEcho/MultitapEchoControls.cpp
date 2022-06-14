@@ -29,7 +29,7 @@
 #include "MultitapEchoControls.h"
 #include "MultitapEcho.h"
 #include "lmms_math.h"
-#include "base64.h"
+#include "core/base64.h"
 
 
 MultitapEchoControls::MultitapEchoControls( MultitapEchoEffect * eff ) :

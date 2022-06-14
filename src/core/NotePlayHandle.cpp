@@ -23,15 +23,15 @@
  *
  */
 
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "BasicFilters.h"
 #include "DetuningHelper.h"
-#include "InstrumentSoundShaping.h"
+#include "core/InstrumentSoundShaping.h"
 #include "InstrumentTrack.h"
-#include "Instrument.h"
-#include "Song.h"
+#include "core/Instrument.h"
+#include "core/Song.h"
 
 NotePlayHandle::BaseDetuning::BaseDetuning( DetuningHelper *detuning ) :
 	m_value( detuning ? detuning->automationClip()->valueAt( 0 ) : 0 )

@@ -28,7 +28,7 @@
 
 #include "EffectControls.h"
 #include "DualFilterControlDialog.h"
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 
 class DualFilterEffect;
 

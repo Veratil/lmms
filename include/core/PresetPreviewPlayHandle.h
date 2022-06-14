@@ -26,7 +26,7 @@
 #ifndef PRESET_PREVIEW_PLAY_HANDLE_H
 #define PRESET_PREVIEW_PLAY_HANDLE_H
 
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 
 
 class DataFile;

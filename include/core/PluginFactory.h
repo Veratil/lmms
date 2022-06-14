@@ -34,7 +34,7 @@
 #include <QString>
 
 #include "lmms_export.h"
-#include "Plugin.h"
+#include "core/Plugin.h"
 
 class QLibrary;
 

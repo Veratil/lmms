@@ -26,14 +26,14 @@
 #include <QMouseEvent>
 
 #include "AutomatableModelView.h"
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 #include "ControllerConnectionDialog.h"
-#include "ControllerConnection.h"
+#include "core/ControllerConnection.h"
 #include "embed.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
 #include "StringPairDrag.h"
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 #include "AutomationEditor.h"
 

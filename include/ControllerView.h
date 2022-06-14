@@ -27,8 +27,8 @@
 
 #include <QFrame>
 
-#include "AutomatableModel.h"
-#include "Controller.h"
+#include "core/AutomatableModel.h"
+#include "core/Controller.h"
 #include "ModelView.h"
 
 class QGroupBox;

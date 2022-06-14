@@ -25,13 +25,13 @@
 #include <QVarLengthArray>
 #include <QDomElement>
 
-#include "InstrumentSoundShaping.h"
-#include "AudioEngine.h"
+#include "core/InstrumentSoundShaping.h"
+#include "core/AudioEngine.h"
 #include "BasicFilters.h"
 #include "embed.h"
-#include "Engine.h"
-#include "EnvelopeAndLfoParameters.h"
-#include "Instrument.h"
+#include "core/Engine.h"
+#include "core/EnvelopeAndLfoParameters.h"
+#include "core/Instrument.h"
 #include "InstrumentTrack.h"
 
 

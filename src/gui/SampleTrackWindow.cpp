@@ -39,7 +39,7 @@
 #include "MainWindow.h"
 #include "MixerLineLcdSpinBox.h"
 #include "SampleTrackView.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "SubWindow.h"
 #include "TabWidget.h"
 #include "TrackLabelButton.h"

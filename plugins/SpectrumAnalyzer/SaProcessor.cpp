@@ -36,7 +36,7 @@
 #endif
 #include <QMutexLocker>
 
-#include "fft_helpers.h"
+#include "core/fft_helpers.h"
 #include "lmms_constants.h"
 #include "LocklessRingBuffer.h"
 #include "SaControls.h"

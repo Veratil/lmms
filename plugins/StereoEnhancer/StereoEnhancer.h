@@ -26,7 +26,7 @@
 #ifndef _STEREO_ENHANCER_H
 #define _STEREO_ENHANCER_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "DspEffectLibrary.h"
 #include "StereoEnhancerControls.h"
 

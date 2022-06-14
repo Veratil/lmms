@@ -27,7 +27,7 @@
 #ifndef DUALFILTER_H
 #define DUALFILTER_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "DualFilterControls.h"
 #include "BasicFilters.h"
 

@@ -29,7 +29,7 @@
 #include <QList>
 #include <QPair>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 
 class SampleBuffer;
 

@@ -33,18 +33,18 @@
 #include <unordered_map>
 
 #include "MidiImport.h"
-#include "TrackContainer.h"
+#include "core/TrackContainer.h"
 #include "InstrumentTrack.h"
 #include "AutomationTrack.h"
-#include "AutomationClip.h"
-#include "ConfigManager.h"
+#include "core/AutomationClip.h"
+#include "core/ConfigManager.h"
 #include "MidiClip.h"
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "TimePos.h"
+#include "core/TimePos.h"
 #include "debug.h"
-#include "Song.h"
+#include "core/Song.h"
 
 #include "plugin_export.h"
 

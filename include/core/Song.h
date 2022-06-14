@@ -30,12 +30,12 @@
 #include <QHash>
 #include <QString>
 
-#include "TrackContainer.h"
-#include "AudioEngine.h"
-#include "Controller.h"
+#include "core/TrackContainer.h"
+#include "core/AudioEngine.h"
+#include "core/Controller.h"
 #include "lmms_constants.h"
-#include "MeterModel.h"
-#include "VstSyncController.h"
+#include "core/MeterModel.h"
+#include "core/VstSyncController.h"
 
 
 class AutomationTrack;

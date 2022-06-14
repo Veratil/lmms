@@ -30,8 +30,8 @@
 #include "lmms_export.h"
 #include "lmms_basics.h"
 #include "core/MemoryManager.h"
-#include "Plugin.h"
-#include "TimePos.h"
+#include "core/Plugin.h"
+#include "core/TimePos.h"
 
 
 // forward-declarations

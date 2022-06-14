@@ -33,7 +33,7 @@
 #include <QThread>
 #include <sndio.h>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
 
 class LcdSpinBox;

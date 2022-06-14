@@ -32,9 +32,9 @@
 #include <cmath>
 
 #include "core/common.h"
-#include "ConfigManager.h"
-#include "LadspaManager.h"
-#include "PluginFactory.h"
+#include "core/ConfigManager.h"
+#include "core/LadspaManager.h"
+#include "core/PluginFactory.h"
 
 
 

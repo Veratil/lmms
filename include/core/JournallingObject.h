@@ -28,7 +28,7 @@
 #include <QStack>
 
 #include "lmms_basics.h"
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 
 class LMMS_EXPORT JournallingObject : public SerializingObject

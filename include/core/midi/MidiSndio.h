@@ -33,7 +33,7 @@
 #include <QThread>
 
 
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 
 
 class MidiSndio : public QThread, public MidiClientRaw

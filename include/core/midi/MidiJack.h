@@ -37,7 +37,7 @@
 
 #include <QThread>
 
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 
 constexpr size_t JACK_MIDI_BUFFER_MAX = 64; /* events */
 

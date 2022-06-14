@@ -27,20 +27,20 @@
 #include <QPainter>
 
 #include "EnvelopeAndLfoView.h"
-#include "EnvelopeAndLfoParameters.h"
+#include "core/EnvelopeAndLfoParameters.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "gui_templates.h"
 #include "Knob.h"
 #include "LedCheckBox.h"
-#include "AudioEngine.h"
-#include "DataFile.h"
-#include "Oscillator.h"
+#include "core/AudioEngine.h"
+#include "core/DataFile.h"
+#include "core/Oscillator.h"
 #include "PixmapButton.h"
 #include "StringPairDrag.h"
 #include "TempoSyncKnob.h"
 #include "TextFloat.h"
-#include "Track.h"
+#include "core/Track.h"
 
 
 extern const float SECS_PER_ENV_SEGMENT;

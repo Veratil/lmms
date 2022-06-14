@@ -30,7 +30,7 @@
 #include <QTextEdit>
 
 #include "Graph.h"
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 
 #include "ExprSynth.h"

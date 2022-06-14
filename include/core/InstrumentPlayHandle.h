@@ -25,9 +25,9 @@
 #ifndef INSTRUMENT_PLAY_HANDLE_H
 #define INSTRUMENT_PLAY_HANDLE_H
 
-#include "PlayHandle.h"
-#include "Instrument.h"
-#include "NotePlayHandle.h"
+#include "core/PlayHandle.h"
+#include "core/Instrument.h"
+#include "core/NotePlayHandle.h"
 #include "lmms_export.h"
 
 class LMMS_EXPORT InstrumentPlayHandle : public PlayHandle

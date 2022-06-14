@@ -26,9 +26,9 @@
 #ifndef SAMPLE_PLAY_HANDLE_H
 #define SAMPLE_PLAY_HANDLE_H
 
-#include "SampleBuffer.h"
-#include "AutomatableModel.h"
-#include "PlayHandle.h"
+#include "core/SampleBuffer.h"
+#include "core/AutomatableModel.h"
+#include "core/PlayHandle.h"
 
 class PatternTrack;
 class SampleClip;

@@ -32,12 +32,12 @@
 #include <QTimeLine>
 
 #include "ActionGroup.h"
-#include "AudioDevice.h"
-#include "AudioEngine.h"
+#include "core/audio/AudioDevice.h"
+#include "core/AudioEngine.h"
 #include "AutomatableSlider.h"
 #include "ClipView.h"
 #include "ComboBox.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "CPULoadWidget.h"
 #include "DeprecationHelper.h"
 #include "embed.h"

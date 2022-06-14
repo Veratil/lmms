@@ -28,9 +28,9 @@
 
 #include <ladspa.h>
 
-#include "AutomatableModel.h"
-#include "TempoSyncKnobModel.h"
-#include "ValueBuffer.h"
+#include "core/AutomatableModel.h"
+#include "core/TempoSyncKnobModel.h"
+#include "core/ValueBuffer.h"
 
 
 typedef struct PortDescription port_desc_t;

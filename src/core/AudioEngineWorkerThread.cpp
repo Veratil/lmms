@@ -22,14 +22,14 @@
  *
  */
 
-#include "AudioEngineWorkerThread.h"
+#include "core/AudioEngineWorkerThread.h"
 #include "core/common.h"
 
 #include <QMutex>
 #include <QWaitCondition>
 
 #include "denormals.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "core/MemoryManager.h"
 #include "ThreadableJob.h"
 

@@ -27,13 +27,13 @@
 #include <QMdiArea>
 
 #include "TempoSyncKnob.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "CaptionMenu.h"
 #include "embed.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
 #include "MeterDialog.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "SubWindow.h"
 
 

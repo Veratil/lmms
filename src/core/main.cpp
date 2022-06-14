@@ -58,19 +58,19 @@
 #include <csignal>
 
 #include "MainApplication.h"
-#include "ConfigManager.h"
-#include "DataFile.h"
-#include "NotePlayHandle.h"
+#include "core/ConfigManager.h"
+#include "core/DataFile.h"
+#include "core/NotePlayHandle.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
-#include "ImportFilter.h"
+#include "core/ImportFilter.h"
 #include "MainWindow.h"
-#include "MixHelpers.h"
+#include "core/MixHelpers.h"
 #include "OutputSettings.h"
-#include "ProjectRenderer.h"
-#include "RenderManager.h"
-#include "Song.h"
+#include "core/ProjectRenderer.h"
+#include "core/RenderManager.h"
+#include "core/Song.h"
 
 #ifdef LMMS_DEBUG_FPE
 #include <fenv.h> // For feenableexcept

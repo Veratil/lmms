@@ -24,9 +24,9 @@
  */
 
 
-#include "Song.h"
-#include "PresetPreviewPlayHandle.h"
-#include "PeakController.h"
+#include "core/Song.h"
+#include "core/PresetPreviewPlayHandle.h"
+#include "core/PeakController.h"
 #include "PeakControllerEffect.h"
 #include "lmms_math.h"
 

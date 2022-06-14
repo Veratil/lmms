@@ -25,8 +25,8 @@
 #ifndef PIANO_H
 #define PIANO_H
 
-#include "Note.h"
-#include "Model.h"
+#include "core/Note.h"
+#include "core/Model.h"
 
 class InstrumentTrack;
 class MidiEventProcessor;

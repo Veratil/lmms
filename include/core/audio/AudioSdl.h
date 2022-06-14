@@ -36,7 +36,7 @@
 #include <SDL/SDL_audio.h>
 #endif
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
 
 class QLineEdit;

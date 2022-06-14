@@ -1,7 +1,7 @@
 #include "SendButtonIndicator.h"
 
 #include "embed.h"
-#include "Mixer.h"
+#include "core/Mixer.h"
 #include "MixerLine.h"
 #include "MixerView.h"
 

@@ -28,7 +28,7 @@
 
 #include <QFile>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "OutputSettings.h"
 
 

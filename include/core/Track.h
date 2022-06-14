@@ -28,8 +28,8 @@
 
 #include <QColor>
 
-#include "AutomatableModel.h"
-#include "JournallingObject.h"
+#include "core/AutomatableModel.h"
+#include "core/JournallingObject.h"
 #include "lmms_basics.h"
 
 

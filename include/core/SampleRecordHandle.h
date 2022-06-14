@@ -29,8 +29,8 @@
 #include <QList>
 #include <QPair>
 
-#include "PlayHandle.h"
-#include "TimePos.h"
+#include "core/PlayHandle.h"
+#include "core/TimePos.h"
 
 class PatternTrack;
 class SampleBuffer;

@@ -33,7 +33,7 @@
 
 #include "LinkedModelGroupViews.h"
 #include "lmms_export.h"
-#include "Lv2Basics.h"
+#include "core/lv2/Lv2Basics.h"
 
 class Lv2Proc;
 class Lv2ControlBase;

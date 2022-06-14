@@ -24,12 +24,12 @@
 
 #include <QDomElement>
 
-#include "InstrumentFunctions.h"
-#include "AudioEngine.h"
+#include "core/InstrumentFunctions.h"
+#include "core/AudioEngine.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
-#include "PresetPreviewPlayHandle.h"
+#include "core/PresetPreviewPlayHandle.h"
 
 
 InstrumentFunctionNoteStacking::ChordTable::Init InstrumentFunctionNoteStacking::ChordTable::s_initTable[] =

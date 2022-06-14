@@ -36,7 +36,7 @@
  * \todo write isWhite inline function and replace throughout
  */
 
-#include "Piano.h"
+#include "core/Piano.h"
 
 #include "InstrumentTrack.h"
 

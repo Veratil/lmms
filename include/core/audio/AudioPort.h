@@ -30,7 +30,7 @@
 #include <QMutex>
 
 #include "core/MemoryManager.h"
-#include "PlayHandle.h"
+#include "core/PlayHandle.h"
 
 class EffectChain;
 class FloatModel;

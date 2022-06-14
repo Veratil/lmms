@@ -28,7 +28,7 @@
 
 #include <QMainWindow>
 
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 class QAction;
 class QComboBox;

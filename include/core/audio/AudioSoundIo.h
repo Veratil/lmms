@@ -28,13 +28,13 @@
 #include <QObject>
 
 #include "lmmsconfig.h"
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 
 #ifdef LMMS_HAVE_SOUNDIO
 
 #include <soundio/soundio.h>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
 
 class ComboBox;

@@ -28,8 +28,8 @@
 
 
 // headers only required for covariance
-#include "AutomatableModel.h"
-#include "ComboBoxModel.h"
+#include "core/AutomatableModel.h"
+#include "core/ComboBoxModel.h"
 
 
 class QString;

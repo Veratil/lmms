@@ -29,7 +29,7 @@
 #include <QObject>
 #include <QString>
 
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 class Keymap : public QObject, public SerializingObject
 {

@@ -22,7 +22,7 @@
  *
  */
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 
 #include <cmath>
 

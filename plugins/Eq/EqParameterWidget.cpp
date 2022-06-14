@@ -32,7 +32,7 @@
 #include <QPen>
 #include <QWidget>
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "EqCurve.h"
 #include "EqParameterWidget.h"
 #include "lmms_constants.h"

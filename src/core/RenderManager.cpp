@@ -24,10 +24,10 @@
 
 #include <QDir>
 
-#include "RenderManager.h"
+#include "core/RenderManager.h"
 
-#include "PatternStore.h"
-#include "Song.h"
+#include "core/PatternStore.h"
+#include "core/Song.h"
 
 
 RenderManager::RenderManager(

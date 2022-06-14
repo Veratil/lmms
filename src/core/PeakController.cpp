@@ -23,15 +23,15 @@
  *
  */
 
-#include "PeakController.h"
+#include "core/PeakController.h"
 
 #include <cmath>
 
 #include <QDomElement>
 #include <QMessageBox>
 
-#include "AudioEngine.h"
-#include "EffectChain.h"
+#include "core/AudioEngine.h"
+#include "core/EffectChain.h"
 #include "plugins/PeakControllerEffect/PeakControllerEffect.h"
 
 PeakControllerEffectVector PeakController::s_effects;

@@ -22,7 +22,7 @@
  *
  */
 
-#include "MidiEventToByteSeq.h"
+#include "core/midi/MidiEventToByteSeq.h"
 
 #include <QtGlobal>
 

@@ -27,7 +27,7 @@
 #define KICKER_OSC_H
 
 #include "DspEffectLibrary.h"
-#include "Oscillator.h"
+#include "core/Oscillator.h"
 
 #include "lmms_math.h"
 #include "interpolation.h"

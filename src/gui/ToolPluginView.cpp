@@ -23,7 +23,7 @@
  *
  */
 
-#include "ToolPlugin.h"
+#include "core/ToolPlugin.h"
 #include "ToolPluginView.h"
 
 #include <QIcon>

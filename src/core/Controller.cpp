@@ -27,12 +27,12 @@
 #include <QDomElement>
 
 #include "core/common.h"
-#include "AudioEngine.h"
-#include "ControllerConnection.h"
+#include "core/AudioEngine.h"
+#include "core/ControllerConnection.h"
 #include "ControllerDialog.h"
-#include "LfoController.h"
-#include "MidiController.h"
-#include "PeakController.h"
+#include "core/LfoController.h"
+#include "core/midi/MidiController.h"
+#include "core/PeakController.h"
 
 
 long Controller::s_periods = 0;

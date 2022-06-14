@@ -28,7 +28,7 @@
 
 #include <QFile>
 
-#include "Plugin.h"
+#include "core/Plugin.h"
 
 
 class TrackContainer;

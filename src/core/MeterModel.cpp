@@ -23,8 +23,8 @@
  */
 
 
-#include "MeterModel.h"
-#include "AutomationClip.h"
+#include "core/MeterModel.h"
+#include "core/AutomationClip.h"
 
 
 MeterModel::MeterModel( ::Model * _parent ) :

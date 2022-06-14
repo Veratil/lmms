@@ -23,17 +23,17 @@
  */
 
 
-#include "Lv2Ports.h"
+#include "core/lv2/Lv2Ports.h"
 
 #ifdef LMMS_HAVE_LV2
 
 #include <lv2/lv2plug.in/ns/ext/atom/atom.h>
 #include <lv2/lv2plug.in/ns/ext/port-props/port-props.h>
 
-#include "Engine.h"
-#include "Lv2Basics.h"
-#include "Lv2Manager.h"
-#include "Lv2Evbuf.h"
+#include "core/Engine.h"
+#include "core/lv2/Lv2Basics.h"
+#include "core/lv2/Lv2Manager.h"
+#include "core/lv2/Lv2Evbuf.h"
 
 namespace Lv2Ports {
 

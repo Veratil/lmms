@@ -26,12 +26,12 @@
 
 #include "Nes.h"
 
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
 #include "interpolation.h"
 #include "Knob.h"
-#include "Oscillator.h"
+#include "core/Oscillator.h"
 
 #include "embed.h"
 #include "plugin_export.h"

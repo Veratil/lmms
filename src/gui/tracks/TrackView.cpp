@@ -33,14 +33,14 @@
 #include <QtGlobal>
 
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
-#include "DataFile.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
+#include "core/DataFile.h"
+#include "core/Engine.h"
 #include "FadeButton.h"
 #include "PixmapButton.h"
 #include "StringPairDrag.h"
-#include "Track.h"
+#include "core/Track.h"
 #include "TrackContainerView.h"
 #include "ClipView.h"
 

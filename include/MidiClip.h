@@ -27,8 +27,8 @@
 #define MIDI_CLIP_H
 
 
-#include "Clip.h"
-#include "Note.h"
+#include "core/Clip.h"
+#include "core/Note.h"
 
 
 class InstrumentTrack;

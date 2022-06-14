@@ -37,7 +37,7 @@
 #include <atomic>
 #include <vector>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
 
 class QLineEdit;

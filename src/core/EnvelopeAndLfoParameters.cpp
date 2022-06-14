@@ -24,10 +24,10 @@
 
 #include <QDomElement>
 
-#include "EnvelopeAndLfoParameters.h"
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "Oscillator.h"
+#include "core/EnvelopeAndLfoParameters.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/Oscillator.h"
 
 
 // how long should be each envelope-segment maximal (e.g. attack)?

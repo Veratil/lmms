@@ -34,9 +34,9 @@
 
 #include <QObject>
 
-#include "Controller.h"
-#include "JournallingObject.h"
-#include "ValueBuffer.h"
+#include "core/Controller.h"
+#include "core/JournallingObject.h"
+#include "core/ValueBuffer.h"
 
 class ControllerConnection;
 

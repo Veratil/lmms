@@ -31,19 +31,19 @@
 #include <QPushButton>
 #include <QCheckBox>
 
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 #include "AutomationTrackView.h"
 #include "ColorChooser.h"
-#include "ConfigManager.h"
-#include "DataFile.h"
+#include "core/ConfigManager.h"
+#include "core/DataFile.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "gui_templates.h"
 #include "InstrumentTrackView.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
-#include "Track.h"
+#include "core/Track.h"
 #include "TrackContainerView.h"
 #include "TrackView.h"
 

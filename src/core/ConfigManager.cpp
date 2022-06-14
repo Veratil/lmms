@@ -31,9 +31,9 @@
 #include <QTextStream>
 
 #include "core/common.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "MainWindow.h"
-#include "ProjectVersion.h"
+#include "core/ProjectVersion.h"
 #include "GuiApplication.h"
 
 #include "lmmsversion.h"

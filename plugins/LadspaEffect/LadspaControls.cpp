@@ -25,7 +25,7 @@
 #include <QDomElement>
 
 #include "LadspaBase.h"
-#include "LadspaControl.h"
+#include "core/LadspaControl.h"
 #include "LadspaEffect.h"
 
 

@@ -28,12 +28,12 @@
 #include <QDomElement>
 
 #include "Kicker.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
 #include "LedCheckBox.h"
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 #include "KickerOsc.h"
 #include "TempoSyncKnob.h"
 

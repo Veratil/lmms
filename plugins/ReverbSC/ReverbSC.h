@@ -26,7 +26,7 @@
 #ifndef REVERBSC_H
 #define REVERBSC_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "ReverbSCControls.h"
 
 extern "C" {

@@ -22,7 +22,7 @@
  *
  */
 
-#include "AudioSdl.h"
+#include "core/audio/AudioSdl.h"
 
 #ifdef LMMS_HAVE_SDL
 
@@ -30,8 +30,8 @@
 #include <QLineEdit>
 #include <SDL.h>
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
 #include "gui_templates.h"
 #include "core/common.h"
 

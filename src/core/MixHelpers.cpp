@@ -22,7 +22,7 @@
  *
  */
 
-#include "MixHelpers.h"
+#include "core/MixHelpers.h"
 
 #ifdef LMMS_DEBUG
 #include <cstdio>
@@ -31,7 +31,7 @@
 #include <cmath>
 #include <QtGlobal>
 
-#include "ValueBuffer.h"
+#include "core/ValueBuffer.h"
 
 
 

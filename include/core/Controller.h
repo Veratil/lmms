@@ -30,10 +30,10 @@
 #include <vector>
 
 #include "lmms_export.h"
-#include "Engine.h"
-#include "Model.h"
-#include "JournallingObject.h"
-#include "ValueBuffer.h"
+#include "core/Engine.h"
+#include "core/Model.h"
+#include "core/JournallingObject.h"
+#include "core/ValueBuffer.h"
 
 class ControllerDialog;
 class Controller;

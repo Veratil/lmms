@@ -26,7 +26,7 @@
 #ifndef _STEREO_MATRIX_H
 #define _STEREO_MATRIX_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "StereoMatrixControls.h"
 
 class StereoMatrixEffect : public Effect

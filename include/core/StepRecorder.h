@@ -28,7 +28,7 @@
 
 #include <vector>
 
-#include "Note.h"
+#include "core/Note.h"
 
 class MidiClip;
 class PianoRoll;

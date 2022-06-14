@@ -36,7 +36,7 @@
 #include <QTimer>
 
 
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 
 
 struct pollfd;

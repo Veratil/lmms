@@ -27,7 +27,7 @@
 
 #include <QColor>
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 
 
 class Track;

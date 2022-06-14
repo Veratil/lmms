@@ -29,11 +29,11 @@
 #include <QDialog>
 #include <QMap>
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
 #include "LedCheckBox.h"
 #include "lmmsconfig.h"
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 #include "MidiSetupWidget.h"
 
 

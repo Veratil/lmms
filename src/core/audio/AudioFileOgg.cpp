@@ -26,7 +26,7 @@
  *
  */
 
-#include "AudioFileOgg.h"
+#include "core/audio/AudioFileOgg.h"
 
 #ifdef LMMS_HAVE_OGGVORBIS
 
@@ -36,7 +36,7 @@
 #include <string>
 #include <vorbis/vorbisenc.h>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 
 
 AudioFileOgg::AudioFileOgg(	OutputSettings const & outputSettings,

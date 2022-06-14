@@ -26,10 +26,10 @@
 #include <QDebug>
 #include <QFileOpenEvent>
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "Song.h"
+#include "core/Song.h"
 
 MainApplication::MainApplication(int& argc, char** argv) :
 	QApplication(argc, argv),

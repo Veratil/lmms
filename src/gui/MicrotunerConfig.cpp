@@ -36,18 +36,18 @@
 
 #include "ComboBox.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "FileDialog.h"
 #include "GuiApplication.h"
-#include "Keymap.h"
+#include "core/Keymap.h"
 #include "LcdFloatSpinBox.h"
 #include "LcdSpinBox.h"
 #include "lmms_constants.h"
 #include "lmmsversion.h"
 #include "MainWindow.h"
-#include "Note.h"
-#include "Scale.h"
-#include "Song.h"
+#include "core/Note.h"
+#include "core/Scale.h"
+#include "core/Song.h"
 #include "SubWindow.h"
 
 

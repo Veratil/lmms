@@ -28,7 +28,7 @@
 
 #include <QWidget>
 
-#include "EffectChain.h"
+#include "core/EffectChain.h"
 #include "ModelView.h"
 #include "lmms_basics.h"
 

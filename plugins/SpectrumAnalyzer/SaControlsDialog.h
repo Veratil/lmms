@@ -26,7 +26,7 @@
 #define SACONTROLSDIALOG_H
 
 #include "EffectControlDialog.h"
-#include "fft_helpers.h"
+#include "core/fft_helpers.h"
 
 class SaControls;
 class SaProcessor;

@@ -26,7 +26,7 @@
 #ifndef DUMMY_PLUGIN_H
 #define DUMMY_PLUGIN_H
 
-#include "Plugin.h"
+#include "core/Plugin.h"
 #include "PluginView.h"
 
 

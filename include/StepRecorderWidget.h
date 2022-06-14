@@ -26,7 +26,7 @@
 #include <QWidget>
 #include <QColor>
 
-#include "TimePos.h"
+#include "core/TimePos.h"
 
 class StepRecorderWidget : public QWidget
 {

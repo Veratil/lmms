@@ -25,7 +25,7 @@
 #ifndef METER_MODEL_H
 #define METER_MODEL_H
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 
 
 class MeterModel : public Model

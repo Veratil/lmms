@@ -1,11 +1,11 @@
-#include "PathUtil.h"
+#include "core/PathUtil.h"
 
 #include <QDir>
 #include <QFileInfo>
 
-#include "ConfigManager.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 
 namespace PathUtil
 {

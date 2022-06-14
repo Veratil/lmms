@@ -28,7 +28,7 @@
 #include <QWidget>
 #include <QCloseEvent>
 
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 #include "lmms_basics.h"
 
 

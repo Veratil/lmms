@@ -25,12 +25,12 @@
 
 #include <QDomElement>
 
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "PatternClip.h"
-#include "PatternStore.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/PatternClip.h"
+#include "core/PatternStore.h"
 #include "PatternTrackView.h"
-#include "PlayHandle.h"
+#include "core/PlayHandle.h"
 
 
 

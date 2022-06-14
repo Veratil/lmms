@@ -22,7 +22,7 @@
  *
  */
 
-#include "AudioJack.h"
+#include "core/audio/AudioJack.h"
 
 #ifdef LMMS_HAVE_JACK
 
@@ -30,14 +30,14 @@
 #include <QLabel>
 #include <QMessageBox>
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "gui_templates.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "LcdSpinBox.h"
 #include "MainWindow.h"
-#include "AudioEngine.h"
-#include "MidiJack.h"
+#include "core/AudioEngine.h"
+#include "core/midi/MidiJack.h"
 
 
 

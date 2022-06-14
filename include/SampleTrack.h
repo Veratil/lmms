@@ -26,8 +26,8 @@
 #define SAMPLE_TRACK_H
 
 
-#include "AudioPort.h"
-#include "Track.h"
+#include "core/audio/AudioPort.h"
+#include "core/Track.h"
 
 
 class SampleTrack : public Track

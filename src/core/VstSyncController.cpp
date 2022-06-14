@@ -23,15 +23,15 @@
  *
  */
 
-#include "VstSyncController.h"
+#include "core/VstSyncController.h"
 
 #include <stdexcept>
 
 #include "core/common.h"
-#include "AudioEngine.h"
-#include "ConfigManager.h"
-#include "Engine.h"
-#include "RemotePlugin.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
+#include "core/RemotePlugin.h"
 
 
 VstSyncController::VstSyncController() :

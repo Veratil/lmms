@@ -29,7 +29,7 @@
 #include <utility>
 #include <vector>
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "embed.h"
 
 

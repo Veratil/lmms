@@ -22,7 +22,7 @@
  *
  */
 
-#include "PluginFactory.h"
+#include "core/PluginFactory.h"
 
 #include <QCoreApplication>
 #include <QDebug>
@@ -32,8 +32,8 @@
 #include "lmmsconfig.h"
 
 #include "core/common.h"
-#include "ConfigManager.h"
-#include "Plugin.h"
+#include "core/ConfigManager.h"
+#include "core/Plugin.h"
 
 #ifdef LMMS_BUILD_WIN32
 	QStringList nameFilters("*.dll");

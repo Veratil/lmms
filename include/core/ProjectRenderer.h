@@ -25,9 +25,9 @@
 #ifndef PROJECT_RENDERER_H
 #define PROJECT_RENDERER_H
 
-#include "AudioFileDevice.h"
+#include "core/audio/AudioFileDevice.h"
 #include "lmmsconfig.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "OutputSettings.h"
 
 #include "lmms_export.h"

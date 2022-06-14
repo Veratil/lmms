@@ -29,7 +29,7 @@
 
 #include <QWidget>
 
-#include "LadspaManager.h"
+#include "core/LadspaManager.h"
 
 
 class QListWidgetItem;

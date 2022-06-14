@@ -27,19 +27,19 @@
 #include <QDomElement>
 #include <QPlainTextEdit>
 
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "Graph.h"
 #include "GuiApplication.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
 #include "LedCheckBox.h"
 #include "MainWindow.h"
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 
-#include "base64.h"
+#include "core/base64.h"
 #include "lmms_constants.h"
 
 #include "embed.h"

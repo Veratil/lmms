@@ -27,7 +27,7 @@
 #define LADSPA_2_LMMS_H
 
 
-#include "LadspaManager.h"
+#include "core/LadspaManager.h"
 
 
 //! Class responsible for sorting found plugins (by LadspaManager)

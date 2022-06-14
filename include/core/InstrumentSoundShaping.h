@@ -25,7 +25,7 @@
 #ifndef INSTRUMENT_SOUND_SHAPING_H
 #define INSTRUMENT_SOUND_SHAPING_H
 
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 
 
 class InstrumentTrack;

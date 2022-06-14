@@ -30,8 +30,8 @@
 
 #include "volume.h"
 #include "panning.h"
-#include "SerializingObject.h"
-#include "TimePos.h"
+#include "core/SerializingObject.h"
+#include "core/TimePos.h"
 
 class DetuningHelper;
 

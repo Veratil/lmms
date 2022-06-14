@@ -26,8 +26,8 @@
 #ifndef PATTERN_STORE_H
 #define PATTERN_STORE_H
 
-#include "TrackContainer.h"
-#include "ComboBoxModel.h"
+#include "core/TrackContainer.h"
+#include "core/ComboBoxModel.h"
 
 
 /*

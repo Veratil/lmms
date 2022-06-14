@@ -28,8 +28,8 @@
 #ifndef SFXR_H
 #define SFXR_H
 
-#include "AutomatableModel.h"
-#include "Instrument.h"
+#include "core/AutomatableModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "core/MemoryManager.h"
 

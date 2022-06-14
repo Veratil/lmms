@@ -26,11 +26,11 @@
 #ifndef EFFECT_H
 #define EFFECT_H
 
-#include "Plugin.h"
-#include "Engine.h"
-#include "AudioEngine.h"
-#include "AutomatableModel.h"
-#include "TempoSyncKnobModel.h"
+#include "core/Plugin.h"
+#include "core/Engine.h"
+#include "core/AudioEngine.h"
+#include "core/AutomatableModel.h"
+#include "core/TempoSyncKnobModel.h"
 #include "core/MemoryManager.h"
 
 class EffectChain;

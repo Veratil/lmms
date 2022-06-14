@@ -31,8 +31,8 @@
 #include <windows.h>
 #include <mmsystem.h>
 
-#include "MidiClient.h"
-#include "MidiPort.h"
+#include "core/midi/MidiClient.h"
+#include "core/midi/MidiPort.h"
 
 
 class QLineEdit;

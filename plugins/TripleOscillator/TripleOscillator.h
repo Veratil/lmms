@@ -26,9 +26,9 @@
 #ifndef _TRIPLE_OSCILLATOR_H
 #define _TRIPLE_OSCILLATOR_H
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 
 
 class automatableButtonGroup;

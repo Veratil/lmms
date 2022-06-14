@@ -30,7 +30,7 @@
 #include <QVector>
 
 #include "MidiEvent.h"
-#include "ImportFilter.h"
+#include "core/ImportFilter.h"
 
 
 class MidiImport : public ImportFilter

@@ -27,7 +27,7 @@
 #ifndef BITCRUSH_H
 #define BITCRUSH_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "BitcrushControls.h"
 #include "BasicFilters.h"
 

@@ -22,11 +22,11 @@
  *
  */
  
-#include "SampleClip.h"
+#include "core/SampleClip.h"
 
 #include <QDomElement>
 
-#include "SampleBuffer.h"
+#include "core/SampleBuffer.h"
 #include "SampleClipView.h"
 #include "SampleTrack.h"
 #include "TimeLineWidget.h"

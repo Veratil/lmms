@@ -27,7 +27,7 @@
 #define AUTOMATABLE_MODEL_VIEW_H
 
 #include "ModelView.h"
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 
 class QMenu;
 class QMouseEvent;

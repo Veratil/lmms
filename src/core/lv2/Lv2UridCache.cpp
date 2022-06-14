@@ -22,7 +22,7 @@
  *
  */
 
-#include "Lv2UridCache.h"
+#include "core/lv2/Lv2UridCache.h"
 
 #ifdef LMMS_HAVE_LV2
 
@@ -32,7 +32,7 @@
 #include <lv2/lv2plug.in/ns/ext/parameters/parameters.h>
 #include <QtGlobal>
 
-#include "Lv2UridMap.h"
+#include "core/lv2/Lv2UridMap.h"
 
 // support newer URIs on old systems
 #ifndef LV2_BUF_SIZE__nominalBlockLength

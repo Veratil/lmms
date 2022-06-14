@@ -27,7 +27,7 @@
 
 #include <QDomElement>
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "EffectControls.h"
 #include "EffectControlDialog.h"
 

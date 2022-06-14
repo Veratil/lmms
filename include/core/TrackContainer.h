@@ -28,8 +28,8 @@
 
 #include <QReadWriteLock>
 
-#include "Track.h"
-#include "JournallingObject.h"
+#include "core/Track.h"
+#include "core/JournallingObject.h"
 
 
 class AutomationClip;

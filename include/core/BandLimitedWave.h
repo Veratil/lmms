@@ -33,8 +33,8 @@ class QString;
 #include "interpolation.h"
 #include "lmms_basics.h"
 #include "lmms_math.h"
-#include "Engine.h"
-#include "AudioEngine.h"
+#include "core/Engine.h"
+#include "core/AudioEngine.h"
 
 constexpr int MAXLEN = 11;
 constexpr int MIPMAPSIZE = 2 << ( MAXLEN + 1 );

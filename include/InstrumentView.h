@@ -26,7 +26,7 @@
 #ifndef INSTRUMENT_VIEW_H
 #define INSTRUMENT_VIEW_H
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "PluginView.h"
 
 class InstrumentTrackWindow;

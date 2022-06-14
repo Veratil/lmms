@@ -32,13 +32,13 @@
 #include "AutomationEditor.h"
 #include "embed.h"
 #include "GuiApplication.h"
-#include "ProjectJournal.h"
+#include "core/ProjectJournal.h"
 #include "RenameDialog.h"
 #include "StringPairDrag.h"
 #include "TextFloat.h"
-#include "Track.h"
+#include "core/Track.h"
 
-#include "Engine.h"
+#include "core/Engine.h"
 
 
 QPixmap * AutomationClipView::s_clip_rec = nullptr;

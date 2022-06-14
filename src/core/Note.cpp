@@ -27,7 +27,7 @@
 
 #include <cmath>
 
-#include "Note.h"
+#include "core/Note.h"
 #include "DetuningHelper.h"
 
 

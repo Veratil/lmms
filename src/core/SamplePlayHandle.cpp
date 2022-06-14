@@ -22,13 +22,13 @@
  *
  */
 
-#include "SamplePlayHandle.h"
-#include "AudioEngine.h"
-#include "AudioPort.h"
-#include "Engine.h"
-#include "Note.h"
+#include "core/SamplePlayHandle.h"
+#include "core/AudioEngine.h"
+#include "core/audio/AudioPort.h"
+#include "core/Engine.h"
+#include "core/Note.h"
 #include "PatternTrack.h"
-#include "SampleClip.h"
+#include "core/SampleClip.h"
 #include "SampleTrack.h"
 
 

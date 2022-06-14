@@ -23,12 +23,12 @@
  */
 
 
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 
-#include "Clip.h"
-#include "Engine.h"
+#include "core/Clip.h"
+#include "core/Engine.h"
 #include "PatternTrack.h"
-#include "Song.h"
+#include "core/Song.h"
 
 
 

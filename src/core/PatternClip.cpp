@@ -22,13 +22,13 @@
  *
  */
  
-#include "PatternClip.h"
+#include "core/PatternClip.h"
  
 #include <QDomElement>
  
-#include "Engine.h"
+#include "core/Engine.h"
 #include "PatternClipView.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "PatternTrack.h"
 
 

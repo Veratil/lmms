@@ -26,9 +26,9 @@
 #ifndef EFFECT_CHAIN_H
 #define EFFECT_CHAIN_H
 
-#include "Model.h"
-#include "SerializingObject.h"
-#include "AutomatableModel.h"
+#include "core/Model.h"
+#include "core/SerializingObject.h"
+#include "core/AutomatableModel.h"
 
 class Effect;
 

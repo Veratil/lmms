@@ -27,9 +27,9 @@
 #include <cmath>
 #include <memory>
 
-#include "AudioFileFlac.h"
+#include "core/audio/AudioFileFlac.h"
 #include "endian_handling.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 
 AudioFileFlac::AudioFileFlac(OutputSettings const& outputSettings, ch_cnt_t const channels, bool& successful, QString const& file, AudioEngine* audioEngine):
 	AudioFileDevice(outputSettings,channels,file,audioEngine),

@@ -24,7 +24,7 @@
  */
 
 
-#include "DrumSynth.h"
+#include "core/DrumSynth.h"
 
 #include <sstream>
 #include <cstring>

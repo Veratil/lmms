@@ -30,7 +30,7 @@
 #include <QMenu>
 #include <QPainter>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "DeprecationHelper.h"
 #include "GuiApplication.h"
 #include "MidiClip.h"

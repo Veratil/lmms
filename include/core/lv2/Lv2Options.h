@@ -37,9 +37,9 @@
 #include <set>
 #include <vector>
 
-#include "Engine.h"
-#include "Lv2Manager.h"
-#include "Lv2UridCache.h"
+#include "core/Engine.h"
+#include "core/lv2/Lv2Manager.h"
+#include "core/lv2/Lv2UridCache.h"
 
 /**
 	Option container

@@ -27,7 +27,7 @@
 #include <QListView>
 #include <QStandardPaths>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "FileDialog.h"
 
 

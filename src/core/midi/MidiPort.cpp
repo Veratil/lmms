@@ -25,12 +25,12 @@
 
 #include <QDomElement>
 
-#include "MidiPort.h"
-#include "MidiClient.h"
+#include "core/midi/MidiPort.h"
+#include "core/midi/MidiClient.h"
 #include "MidiDummy.h"
 #include "MidiEventProcessor.h"
-#include "Note.h"
-#include "Song.h"
+#include "core/Note.h"
+#include "core/Song.h"
 
 static MidiDummy s_dummyClient;
 

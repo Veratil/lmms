@@ -29,7 +29,7 @@
 
 #include <QDialog>
 
-#include "LadspaManager.h"
+#include "core/LadspaManager.h"
 
 
 

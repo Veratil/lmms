@@ -27,12 +27,12 @@
 
 #include <QWidget>
 
-#include "Model.h"
-#include "AutomatableModel.h"
-#include "Controller.h"
+#include "core/Model.h"
+#include "core/AutomatableModel.h"
+#include "core/Controller.h"
 #include "ControllerDialog.h"
-#include "TempoSyncKnobModel.h"
-#include "Oscillator.h"
+#include "core/TempoSyncKnobModel.h"
+#include "core/Oscillator.h"
 
 class automatableButtonGroup;
 class Knob;

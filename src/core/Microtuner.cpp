@@ -22,16 +22,16 @@
  *
  */
 
-#include "Microtuner.h"
+#include "core/Microtuner.h"
 
 #include <vector>
 #include <cmath>
 
-#include "Engine.h"
-#include "Keymap.h"
-#include "Note.h"
-#include "Scale.h"
-#include "Song.h"
+#include "core/Engine.h"
+#include "core/Keymap.h"
+#include "core/Note.h"
+#include "core/Scale.h"
+#include "core/Song.h"
 
 
 Microtuner::Microtuner() :

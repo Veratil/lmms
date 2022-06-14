@@ -27,8 +27,8 @@
 
 #include "Graph.h"
 #include "StringPairDrag.h"
-#include "SampleBuffer.h"
-#include "Oscillator.h"
+#include "core/SampleBuffer.h"
+#include "core/Oscillator.h"
 
 
 Graph::Graph( QWidget * _parent, graphStyle _style, int _width,

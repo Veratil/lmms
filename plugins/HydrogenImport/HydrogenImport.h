@@ -3,7 +3,7 @@
 
 #include <QString>
 
-#include "ImportFilter.h"
+#include "core/ImportFilter.h"
 
 
 class HydrogenImport : public ImportFilter

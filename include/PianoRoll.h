@@ -31,12 +31,12 @@
 #include <QWidget>
 
 #include "Editor.h"
-#include "ComboBoxModel.h"
-#include "SerializingObject.h"
-#include "Note.h"
+#include "core/ComboBoxModel.h"
+#include "core/SerializingObject.h"
+#include "core/Note.h"
 #include "lmms_basics.h"
-#include "Song.h"
-#include "StepRecorder.h"
+#include "core/Song.h"
+#include "core/StepRecorder.h"
 #include "StepRecorderWidget.h"
 
 class QPainter;

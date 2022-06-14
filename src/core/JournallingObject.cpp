@@ -24,10 +24,10 @@
 
 #include <QDomElement>
 
-#include "JournallingObject.h"
-#include "AutomatableModel.h"
-#include "ProjectJournal.h"
-#include "Engine.h"
+#include "core/JournallingObject.h"
+#include "core/AutomatableModel.h"
+#include "core/ProjectJournal.h"
+#include "core/Engine.h"
 
 
 

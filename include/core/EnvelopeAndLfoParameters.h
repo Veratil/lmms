@@ -25,10 +25,10 @@
 #ifndef ENVELOPE_AND_LFO_PARAMETERS_H
 #define ENVELOPE_AND_LFO_PARAMETERS_H
 
-#include "JournallingObject.h"
-#include "AutomatableModel.h"
-#include "SampleBuffer.h"
-#include "TempoSyncKnobModel.h"
+#include "core/JournallingObject.h"
+#include "core/AutomatableModel.h"
+#include "core/SampleBuffer.h"
+#include "core/TempoSyncKnobModel.h"
 #include "lmms_basics.h"
 
 

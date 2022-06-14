@@ -33,10 +33,10 @@
 #include <set>
 #include <lilv/lilv.h>
 
-#include "Lv2Basics.h"
-#include "Lv2UridCache.h"
-#include "Lv2UridMap.h"
-#include "Plugin.h"
+#include "core/lv2/Lv2Basics.h"
+#include "core/lv2/Lv2UridCache.h"
+#include "core/lv2/Lv2UridMap.h"
+#include "core/Plugin.h"
 
 
 /*

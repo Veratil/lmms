@@ -51,8 +51,8 @@
 #endif
 
 // lmms/include/
-#include "AutomatableModel.h"
-#include "Instrument.h"
+#include "core/AutomatableModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "SubWindow.h"
 

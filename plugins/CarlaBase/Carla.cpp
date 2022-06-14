@@ -24,16 +24,16 @@
 
 #include "Carla.h"
 
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
-#include "InstrumentPlayHandle.h"
+#include "core/InstrumentPlayHandle.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
-#include "MidiEventToByteSeq.h"
+#include "core/midi/MidiEventToByteSeq.h"
 #include "MainWindow.h"
 #include "gui_templates.h"
-#include "Song.h"
+#include "core/Song.h"
 
 #include <QApplication>
 #include <QComboBox>

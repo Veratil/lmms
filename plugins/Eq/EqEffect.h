@@ -24,7 +24,7 @@
 #ifndef EQEFFECT_H
 #define EQEFFECT_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "EqControls.h"
 #include "EqFilter.h"
 

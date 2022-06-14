@@ -28,9 +28,9 @@
 
 #include <QWidget>
 
-#include "AutomatableModel.h"
-#include "ComboBoxModel.h"
-#include "SerializingObject.h"
+#include "core/AutomatableModel.h"
+#include "core/ComboBoxModel.h"
+#include "core/SerializingObject.h"
 
 class QLineEdit;
 class QPlainTextEdit;

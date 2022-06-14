@@ -26,7 +26,7 @@
 #define LV2_FX_CONTROLS_H
 
 #include "EffectControls.h"
-#include "Lv2ControlBase.h"
+#include "core/lv2/Lv2ControlBase.h"
 
 class Lv2Effect;
 

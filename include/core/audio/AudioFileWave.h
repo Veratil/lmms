@@ -27,7 +27,7 @@
 #define AUDIO_FILE_WAVE_H
 
 #include "lmmsconfig.h"
-#include "AudioFileDevice.h"
+#include "core/audio/AudioFileDevice.h"
 
 #include <sndfile.h>
 

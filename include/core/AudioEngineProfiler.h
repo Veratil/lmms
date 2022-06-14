@@ -28,7 +28,7 @@
 #include <QFile>
 
 #include "lmms_basics.h"
-#include "MicroTimer.h"
+#include "core/MicroTimer.h"
 
 class AudioEngineProfiler
 {

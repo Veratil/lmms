@@ -26,7 +26,7 @@
 #ifndef BASS_BOOSTER_H
 #define BASS_BOOSTER_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "DspEffectLibrary.h"
 #include "BassBoosterControls.h"
 

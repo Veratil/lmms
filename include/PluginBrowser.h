@@ -28,7 +28,7 @@
 #include <QPixmap>
 
 #include "SideBarWidget.h"
-#include "Plugin.h"
+#include "core/Plugin.h"
 
 class QLineEdit;
 class QTreeWidget;

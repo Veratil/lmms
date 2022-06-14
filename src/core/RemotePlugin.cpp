@@ -22,7 +22,7 @@
  *
  */
 
-#include "RemotePlugin.h"
+#include "core/RemotePlugin.h"
 #include "core/common.h"
 
 //#define DEBUG_REMOTE_PLUGIN
@@ -34,9 +34,9 @@
 #include <windows.h>
 #endif
 
-#include "BufferManager.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/BufferManager.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 
 #include <QCoreApplication>
 #include <QDebug>

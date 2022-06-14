@@ -32,13 +32,13 @@
 #include <lilv/lilv.h>
 #include <memory>
 
-#include "Lv2Basics.h"
-#include "Lv2Features.h"
-#include "Lv2Options.h"
-#include "LinkedModelGroups.h"
-#include "Plugin.h"
+#include "core/lv2/Lv2Basics.h"
+#include "core/lv2/Lv2Features.h"
+#include "core/lv2/Lv2Options.h"
+#include "core/LinkedModelGroups.h"
+#include "core/Plugin.h"
 #include "../src/3rdparty/ringbuffer/include/ringbuffer/ringbuffer.h"
-#include "TimePos.h"
+#include "core/TimePos.h"
 
 class PluginIssue;
 

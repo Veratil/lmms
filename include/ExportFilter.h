@@ -28,8 +28,8 @@
 
 #include <QFile>
 
-#include "TrackContainer.h"
-#include "Plugin.h"
+#include "core/TrackContainer.h"
+#include "core/Plugin.h"
 
 
 class LMMS_EXPORT ExportFilter : public Plugin

@@ -27,10 +27,10 @@
 
 #include <QWidget>
 
-#include "AutomatableModel.h"
-#include "Controller.h"
+#include "core/AutomatableModel.h"
+#include "core/Controller.h"
 #include "MidiEventProcessor.h"
-#include "MidiPort.h"
+#include "core/midi/MidiPort.h"
 
 
 class MidiPort;

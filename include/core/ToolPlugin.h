@@ -27,7 +27,7 @@
 #ifndef TOOL_PLUGIN_H
 #define TOOL_PLUGIN_H
 
-#include "Plugin.h"
+#include "core/Plugin.h"
 
 class LMMS_EXPORT ToolPlugin : public Plugin
 {

@@ -25,8 +25,8 @@
 
 #include "VibratingString.h"
 #include "interpolation.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 
 
 VibratingString::VibratingString(	float _pitch, 

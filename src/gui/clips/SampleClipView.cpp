@@ -29,10 +29,10 @@
 #include <QPainter>
 
 #include "embed.h"
-#include "PathUtil.h"
-#include "SampleBuffer.h"
-#include "SampleClip.h"
-#include "Song.h"
+#include "core/PathUtil.h"
+#include "core/SampleBuffer.h"
+#include "core/SampleClip.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
 
 SampleClipView::SampleClipView( SampleClip * _clip, TrackView * _tv ) :

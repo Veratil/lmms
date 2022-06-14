@@ -25,7 +25,7 @@
 #ifndef SWEEP_OSCILLATOR_H
 #define SWEEP_OSCILLATOR_H
 
-#include "Oscillator.h"
+#include "core/Oscillator.h"
 #include "DspEffectLibrary.h"
 
 

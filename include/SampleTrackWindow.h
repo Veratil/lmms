@@ -32,7 +32,7 @@
 
 #include "ModelView.h"
 #include "SampleTrack.h"
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 class EffectRackView;
 class Knob;

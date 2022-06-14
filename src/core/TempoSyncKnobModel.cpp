@@ -26,9 +26,9 @@
 #include <QAction>
 #include <QDomElement>
 
-#include "TempoSyncKnobModel.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/TempoSyncKnobModel.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 
 
 TempoSyncKnobModel::TempoSyncKnobModel( const float _val, const float _min,

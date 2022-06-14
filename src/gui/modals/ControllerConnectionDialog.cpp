@@ -28,17 +28,17 @@
 #include <QPushButton>
 #include <QMessageBox>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "ControllerConnectionDialog.h"
-#include "ControllerConnection.h"
-#include "MidiController.h"
-#include "MidiClient.h"
+#include "core/ControllerConnection.h"
+#include "core/midi/MidiController.h"
+#include "core/midi/MidiClient.h"
 #include "MidiPortMenu.h"
 #include "LcdSpinBox.h"
 #include "LedCheckBox.h"
 #include "ComboBox.h"
 #include "GroupBox.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "TabWidget.h"
 #include "ToolButton.h"
 

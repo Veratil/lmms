@@ -27,7 +27,7 @@
 
 #include <QWidget>
 
-#include "InstrumentSoundShaping.h"
+#include "core/InstrumentSoundShaping.h"
 #include "ModelView.h"
 
 class QLabel;

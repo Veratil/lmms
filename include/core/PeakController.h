@@ -25,7 +25,7 @@
 #ifndef PEAK_CONTROLLER_H
 #define PEAK_CONTROLLER_H
 
-#include "Controller.h"
+#include "core/Controller.h"
 #include "ControllerDialog.h"
 
 class QWidget;

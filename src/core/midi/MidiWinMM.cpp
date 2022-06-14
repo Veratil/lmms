@@ -22,7 +22,7 @@
  *
  */
 
-#include "MidiWinMM.h"
+#include "core/midi/MidiWinMM.h"
 
 #ifdef LMMS_BUILD_WIN32
 

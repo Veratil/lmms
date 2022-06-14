@@ -26,7 +26,7 @@
 #ifndef FLANGEREFFECT_H
 #define FLANGEREFFECT_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "FlangerControls.h"
 #include "MonoDelay.h"
 #include "Noise.h"

@@ -28,7 +28,7 @@
 #include <QObject>
 
 #include "lmmsconfig.h"
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 
 class AudioPortAudioSetupUtil : public QObject
 {
@@ -49,7 +49,7 @@ public:
 #include <portaudio.h>
 
 
-#include "AudioDevice.h"
+#include "core/audio/AudioDevice.h"
 #include "AudioDeviceSetupWidget.h"
 
 #if defined paNeverDropInput || defined paNonInterleaved

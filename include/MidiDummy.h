@@ -25,7 +25,7 @@
 #ifndef MIDI_DUMMY_H
 #define MIDI_DUMMY_H
 
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 
 
 class MidiDummy : public MidiClientRaw

@@ -29,13 +29,13 @@
 #include <QDomElement>
 #include <QWriteLocker>
 
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 #include "embed.h"
-#include "TrackContainer.h"
-#include "PatternClip.h"
-#include "PatternStore.h"
+#include "core/TrackContainer.h"
+#include "core/PatternClip.h"
+#include "core/PatternStore.h"
 #include "PatternTrack.h"
-#include "Song.h"
+#include "core/Song.h"
 
 #include "GuiApplication.h"
 #include "MainWindow.h"

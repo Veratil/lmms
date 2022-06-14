@@ -31,7 +31,7 @@
 
 #include <map>
 #include <vector>
-#include "Lv2Manager.h"
+#include "core/lv2/Lv2Manager.h"
 
 /**
 	Feature container

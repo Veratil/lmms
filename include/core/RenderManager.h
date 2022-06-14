@@ -29,7 +29,7 @@
 #include <memory>
 #include <vector>
 
-#include "ProjectRenderer.h"
+#include "core/ProjectRenderer.h"
 #include "OutputSettings.h"
 
 

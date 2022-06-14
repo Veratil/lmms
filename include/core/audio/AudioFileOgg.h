@@ -32,7 +32,7 @@
 
 #include <vorbis/codec.h>
 
-#include "AudioFileDevice.h"
+#include "core/audio/AudioFileDevice.h"
 
 
 class AudioFileOgg : public AudioFileDevice

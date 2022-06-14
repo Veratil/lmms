@@ -24,7 +24,7 @@
  */
 
 
-#include "Ladspa2LMMS.h"
+#include "core/Ladspa2LMMS.h"
 
 
 Ladspa2LMMS::Ladspa2LMMS()

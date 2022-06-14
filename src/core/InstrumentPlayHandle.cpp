@@ -23,7 +23,7 @@
  */
 
 
-#include "InstrumentPlayHandle.h"
+#include "core/InstrumentPlayHandle.h"
 #include "InstrumentTrack.h"
 
 InstrumentPlayHandle::InstrumentPlayHandle( Instrument * instrument, InstrumentTrack* instrumentTrack ) :

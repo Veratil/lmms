@@ -27,7 +27,7 @@
 #include <QLabel>
 #include <QLineEdit>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "gui_templates.h"
 
 MidiSetupWidget::MidiSetupWidget(const QString & caption, const QString & configSection,

@@ -22,7 +22,7 @@
  *
  */
 
-#include "Plugin.h"
+#include "core/Plugin.h"
 
 #include <QtGlobal>
 #include <QDomElement>
@@ -30,11 +30,11 @@
 #include <QMessageBox>
 
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "DummyPlugin.h"
-#include "AutomatableModel.h"
-#include "Song.h"
+#include "core/AutomatableModel.h"
+#include "core/Song.h"
 
 
 static PixmapLoader dummyLoader;
@@ -183,7 +183,7 @@ AutomatableModel * Plugin::childModel( const QString & )
 
 
 
-#include "PluginFactory.h"
+#include "core/PluginFactory.h"
 Plugin * Plugin::instantiateWithKey(const QString& pluginName, Model * parent,
 				const Descriptor::SubPluginFeatures::Key *key,
 				bool keyFromDnd)

@@ -22,7 +22,7 @@
  *
  */
 
-#include "PerfLog.h"
+#include "core/PerfLog.h"
 
 #include "lmmsconfig.h"
 #include "core/common.h"

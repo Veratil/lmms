@@ -31,8 +31,8 @@
 #include <QMap>
 
 #include "Midi.h"
-#include "TimePos.h"
-#include "AutomatableModel.h"
+#include "core/TimePos.h"
+#include "core/AutomatableModel.h"
 
 
 class MidiClient;

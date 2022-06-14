@@ -29,7 +29,7 @@
 #include <QStack>
 
 #include "lmms_basics.h"
-#include "DataFile.h"
+#include "core/DataFile.h"
 
 class JournallingObject;
 

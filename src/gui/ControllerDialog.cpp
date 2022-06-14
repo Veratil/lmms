@@ -26,7 +26,7 @@
 #include <QCloseEvent>
 
 #include "ControllerDialog.h"
-#include "Controller.h"
+#include "core/Controller.h"
 
 
 ControllerDialog::ControllerDialog( Controller * _controller,

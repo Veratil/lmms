@@ -28,7 +28,7 @@
 
 #include "PeakControllerEffectControls.h"
 #include "PeakControllerEffect.h"
-#include "Song.h"
+#include "core/Song.h"
 
 
 PeakControllerEffectControls::

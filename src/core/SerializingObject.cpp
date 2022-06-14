@@ -24,7 +24,7 @@
 
 #include <QDomElement>
 
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 
 

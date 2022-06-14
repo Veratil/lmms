@@ -29,10 +29,10 @@
 
 #include <QPixmap>
 
-#include "ComboBoxModel.h"
-#include "Instrument.h"
+#include "core/ComboBoxModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "SampleBuffer.h"
+#include "core/SampleBuffer.h"
 #include "Knob.h"
 
 class automatableButtonGroup;

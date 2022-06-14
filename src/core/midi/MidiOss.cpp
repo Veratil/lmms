@@ -23,11 +23,11 @@
  */
 
 
-#include "MidiOss.h"
+#include "core/midi/MidiOss.h"
 
 #ifdef LMMS_HAVE_OSS
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 
 

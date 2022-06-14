@@ -29,7 +29,7 @@
 
 #ifdef LMMS_HAVE_ALSA
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "LcdSpinBox.h"
 #include "gui_templates.h"
 

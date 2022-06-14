@@ -24,7 +24,7 @@
 
 #include <QDomElement>
 
-#include "InlineAutomation.h"
+#include "core/InlineAutomation.h"
 
 
 void InlineAutomation::saveSettings( QDomDocument & _doc,

@@ -28,12 +28,12 @@
 
 #include "ClipView.h"
 #include "ComboBox.h"
-#include "DataFile.h"
+#include "core/DataFile.h"
 #include "embed.h"
 #include "MainWindow.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "PatternTrack.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
 #include "TrackView.h"
 

@@ -22,17 +22,17 @@
  *
  */
 
-#include "MidiJack.h"
+#include "core/midi/MidiJack.h"
 
 #ifdef LMMS_HAVE_JACK
 
 #include <QMessageBox>
 
-#include "AudioEngine.h"
-#include "AudioJack.h"
-#include "ConfigManager.h"
+#include "core/AudioEngine.h"
+#include "core/audio/AudioJack.h"
+#include "core/ConfigManager.h"
 #include "GuiApplication.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "MainWindow.h"
 
 /* callback functions for jack */

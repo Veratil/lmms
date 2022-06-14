@@ -28,17 +28,17 @@
 #include <QMessageBox>
 
 #include "LadspaEffect.h"
-#include "DataFile.h"
-#include "AudioDevice.h"
-#include "AudioEngine.h"
-#include "Ladspa2LMMS.h"
+#include "core/DataFile.h"
+#include "core/audio/AudioDevice.h"
+#include "core/AudioEngine.h"
+#include "core/Ladspa2LMMS.h"
 #include "LadspaBase.h"
-#include "LadspaControl.h"
+#include "core/LadspaControl.h"
 #include "LadspaSubPluginFeatures.h"
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 #include "core/MemoryManager.h"
-#include "ValueBuffer.h"
-#include "Song.h"
+#include "core/ValueBuffer.h"
+#include "core/Song.h"
 
 #include "embed.h"
 
