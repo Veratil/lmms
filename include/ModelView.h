@@ -26,7 +26,7 @@
 #define MODEL_VIEW_H
 
 #include <QPointer>
-#include "Model.h"
+#include "core/Model.h"
 
 
 class LMMS_EXPORT ModelView

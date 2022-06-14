@@ -22,10 +22,10 @@
  *
  */
  
-#include "PlayHandle.h"
-#include "AudioEngine.h"
-#include "BufferManager.h"
-#include "Engine.h"
+#include "core/PlayHandle.h"
+#include "core/AudioEngine.h"
+#include "core/BufferManager.h"
+#include "core/Engine.h"
 
 #include <QThread>
 

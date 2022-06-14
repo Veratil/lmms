@@ -34,17 +34,17 @@
 #include "MixerView.h"
 #include "Knob.h"
 #include "MixerLine.h"
-#include "Mixer.h"
+#include "core/Mixer.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "InstrumentTrack.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "SampleTrack.h"
 #include "SendButtonIndicator.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "SubWindow.h"
-#include "TrackContainer.h" // For TrackContainer::TrackList typedef
+#include "core/TrackContainer.h" // For TrackContainer::TrackList typedef
 
 MixerView::MixerView() :
 	QWidget(),

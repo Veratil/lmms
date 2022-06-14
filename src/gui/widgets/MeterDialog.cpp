@@ -29,7 +29,7 @@
 #include <QVBoxLayout>
 
 #include "MeterDialog.h"
-#include "MeterModel.h"
+#include "core/MeterModel.h"
 #include "gui_templates.h"
 #include "LcdSpinBox.h"
 

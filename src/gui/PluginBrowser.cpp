@@ -33,9 +33,9 @@
 #include <QTreeWidget>
 
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "StringPairDrag.h"
-#include "PluginFactory.h"
+#include "core/PluginFactory.h"
 
 
 PluginBrowser::PluginBrowser( QWidget * _parent ) :

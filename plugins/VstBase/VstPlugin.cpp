@@ -47,13 +47,13 @@
 #	include <QLayout>
 #endif
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
 #include "GuiApplication.h"
 #include "LocaleHelper.h"
 #include "MainWindow.h"
-#include "PathUtil.h"
-#include "Song.h"
+#include "core/PathUtil.h"
+#include "core/Song.h"
 #include "FileDialog.h"
 
 #ifdef LMMS_BUILD_LINUX

@@ -24,7 +24,7 @@
  *
  */
 
-#include "BufferManager.h"
+#include "core/BufferManager.h"
 
 #include <cstring>
 

@@ -28,7 +28,7 @@
 
 #include <QWidget>
 
-#include "Song.h"
+#include "core/Song.h"
 
 
 class QPixmap;

@@ -23,7 +23,7 @@
  *
  */
 
-#include "MidiSndio.h"
+#include "core/midi/MidiSndio.h"
 
 #ifdef LMMS_HAVE_SNDIO
 
@@ -31,7 +31,7 @@
 #include <sndio.h>
 #include <poll.h>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 
 MidiSndio::MidiSndio( void ) :

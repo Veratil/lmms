@@ -27,7 +27,7 @@
 
 #include "ReverbSCControls.h"
 #include "ReverbSC.h"
-#include "Engine.h"
+#include "core/Engine.h"
 
 ReverbSCControls::ReverbSCControls( ReverbSCEffect* effect ) :
 	EffectControls( effect ),

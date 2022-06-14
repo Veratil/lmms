@@ -24,16 +24,16 @@
  *
  */
 
-#include "Lv2SubPluginFeatures.h"
+#include "core/lv2/Lv2SubPluginFeatures.h"
 
 #ifdef LMMS_HAVE_LV2
 
 #include <QHBoxLayout>
 #include <QLabel>
 
-#include "Engine.h"
-#include "Lv2Basics.h"
-#include "Lv2Manager.h"
+#include "core/Engine.h"
+#include "core/lv2/Lv2Basics.h"
+#include "core/lv2/Lv2Manager.h"
 
 
 const LilvPlugin *Lv2SubPluginFeatures::getPlugin(

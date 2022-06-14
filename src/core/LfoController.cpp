@@ -26,9 +26,9 @@
 #include <QDomElement>
 
 
-#include "LfoController.h"
-#include "AudioEngine.h"
-#include "Song.h"
+#include "core/LfoController.h"
+#include "core/AudioEngine.h"
+#include "core/Song.h"
 
 
 LfoController::LfoController( Model * _parent ) :

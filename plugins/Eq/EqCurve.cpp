@@ -27,9 +27,9 @@
 #include <QGraphicsSceneMouseEvent>
 #include <QPainter>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "lmms_constants.h"
 
 

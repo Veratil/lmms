@@ -29,14 +29,14 @@
 #include <QMenu>
 #include <QPainter>
 
-#include "AutomationClip.h"
-#include "Clipboard.h"
-#include "DataFile.h"
-#include "Engine.h"
+#include "core/AutomationClip.h"
+#include "core/Clipboard.h"
+#include "core/DataFile.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "PatternEditor.h"
-#include "PatternStore.h"
-#include "Song.h"
+#include "core/PatternStore.h"
+#include "core/Song.h"
 #include "SongEditor.h"
 #include "StringPairDrag.h"
 #include "TrackContainerView.h"

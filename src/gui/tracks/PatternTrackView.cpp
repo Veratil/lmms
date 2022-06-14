@@ -24,10 +24,10 @@
  
 #include "PatternTrackView.h"
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "PatternEditor.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "PatternTrack.h"
 #include "TrackLabelButton.h"
 

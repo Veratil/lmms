@@ -30,7 +30,7 @@
 
 #include "embed.h"
 
-#include "PeakController.h"
+#include "core/PeakController.h"
 
 
 PeakControllerDialog::PeakControllerDialog( Controller * _model, QWidget * _parent ) :

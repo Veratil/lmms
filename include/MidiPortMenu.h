@@ -29,7 +29,7 @@
 #include <QMenu>
 
 #include "ModelView.h"
-#include "MidiPort.h"
+#include "core/midi/MidiPort.h"
 
 class QAction;
 

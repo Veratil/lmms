@@ -22,8 +22,8 @@
  *
  */
 
-#include "MidiAlsaRaw.h"
-#include "ConfigManager.h"
+#include "core/midi/MidiAlsaRaw.h"
+#include "core/ConfigManager.h"
 
 
 #ifdef LMMS_HAVE_ALSA

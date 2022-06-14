@@ -29,7 +29,7 @@
 #define VERSIONEDSAVEDIALOG_H
 
 #include "FileDialog.h"
-#include "Song.h"
+#include "core/Song.h"
 
 class QLineEdit;
 class LedCheckBox;

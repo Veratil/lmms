@@ -26,7 +26,7 @@
 #ifndef DETUNING_HELPER_H
 #define DETUNING_HELPER_H
 
-#include "InlineAutomation.h"
+#include "core/InlineAutomation.h"
 #include "core/MemoryManager.h"
 
 class DetuningHelper : public InlineAutomation

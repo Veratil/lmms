@@ -28,13 +28,13 @@
 #include <QDragEnterEvent>
 #include <QPushButton>
 
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "InstrumentPlayHandle.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/InstrumentPlayHandle.h"
 #include "InstrumentTrack.h"
-#include "Lv2SubPluginFeatures.h"
+#include "core/lv2/Lv2SubPluginFeatures.h"
 #include "StringPairDrag.h"
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 #include "embed.h"
 #include "plugin_export.h"

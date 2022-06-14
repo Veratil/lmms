@@ -23,12 +23,12 @@
  */
 
 
-#include "SampleRecordHandle.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/SampleRecordHandle.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "PatternTrack.h"
-#include "SampleBuffer.h"
-#include "SampleClip.h"
+#include "core/SampleBuffer.h"
+#include "core/SampleClip.h"
 #include "debug.h"
 
 

@@ -32,7 +32,7 @@
 #include "StringPairDrag.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 
 StringPairDrag::StringPairDrag( const QString & _key, const QString & _value,

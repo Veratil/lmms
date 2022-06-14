@@ -31,7 +31,7 @@
 #include <QVBoxLayout>
 
 #include "LadspaBase.h"
-#include "LadspaControl.h"
+#include "core/LadspaControl.h"
 #include "LadspaControls.h"
 #include "LadspaControlDialog.h"
 #include "LadspaControlView.h"

@@ -30,10 +30,10 @@
 #include "Instrmnt.h"
 
 #include "ComboBox.h"
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "Knob.h"
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 #include "LedCheckBox.h"
 
 // As of Stk 4.4 all classes and types have been moved to the namespace "stk".

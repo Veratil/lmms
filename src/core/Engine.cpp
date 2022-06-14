@@ -23,19 +23,19 @@
  */
 
 
-#include "Engine.h"
-#include "AudioEngine.h"
-#include "ConfigManager.h"
-#include "Mixer.h"
-#include "Ladspa2LMMS.h"
-#include "Lv2Manager.h"
-#include "PatternStore.h"
-#include "Plugin.h"
-#include "PresetPreviewPlayHandle.h"
-#include "ProjectJournal.h"
-#include "Song.h"
-#include "BandLimitedWave.h"
-#include "Oscillator.h"
+#include "core/Engine.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
+#include "core/Mixer.h"
+#include "core/Ladspa2LMMS.h"
+#include "core/lv2/Lv2Manager.h"
+#include "core/PatternStore.h"
+#include "core/Plugin.h"
+#include "core/PresetPreviewPlayHandle.h"
+#include "core/ProjectJournal.h"
+#include "core/Song.h"
+#include "core/BandLimitedWave.h"
+#include "core/Oscillator.h"
 
 float LmmsCore::s_framesPerTick;
 AudioEngine* LmmsCore::s_audioEngine = nullptr;

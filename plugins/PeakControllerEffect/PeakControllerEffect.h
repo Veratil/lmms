@@ -26,7 +26,7 @@
 #ifndef PEAK_CONTROLLER_EFFECT_H
 #define PEAK_CONTROLLER_EFFECT_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "PeakControllerEffectControls.h"
 
 class PeakController;

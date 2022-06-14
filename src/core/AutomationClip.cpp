@@ -24,16 +24,16 @@
  *
  */
 
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 
-#include "AutomationNode.h"
+#include "core/AutomationNode.h"
 #include "AutomationClipView.h"
 #include "AutomationTrack.h"
 #include "LocaleHelper.h"
-#include "Note.h"
-#include "PatternStore.h"
-#include "ProjectJournal.h"
-#include "Song.h"
+#include "core/Note.h"
+#include "core/PatternStore.h"
+#include "core/ProjectJournal.h"
+#include "core/Song.h"
 
 #include <cmath>
 

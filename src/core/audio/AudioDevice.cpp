@@ -24,9 +24,9 @@
 
 #include <cstring>
 
-#include "AudioDevice.h"
-#include "AudioEngine.h"
-#include "ConfigManager.h"
+#include "core/audio/AudioDevice.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
 #include "debug.h"
 
 

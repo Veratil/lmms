@@ -31,7 +31,7 @@
 #include <QWidget>
 
 #include "ComboBox.h"
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 #include "Knob.h"
 #include "LedCheckBox.h"
 #include "PixmapButton.h"

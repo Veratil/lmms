@@ -25,11 +25,11 @@
  
  #include "AutomationTrackView.h"
  
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 #include "AutomationTrack.h"
 #include "embed.h"
-#include "Engine.h"
-#include "ProjectJournal.h"
+#include "core/Engine.h"
+#include "core/ProjectJournal.h"
 #include "StringPairDrag.h"
 #include "TrackContainerView.h"
 #include "TrackLabelButton.h"

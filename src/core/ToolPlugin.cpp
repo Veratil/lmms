@@ -23,7 +23,7 @@
  *
  */
 
-#include "ToolPlugin.h"
+#include "core/ToolPlugin.h"
 
 
 ToolPlugin::ToolPlugin( const Descriptor * _descriptor, Model * _parent ) :

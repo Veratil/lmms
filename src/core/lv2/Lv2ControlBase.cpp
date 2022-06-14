@@ -22,7 +22,7 @@
  *
  */
 
-#include "Lv2ControlBase.h"
+#include "core/lv2/Lv2ControlBase.h"
 
 #ifdef LMMS_HAVE_LV2
 
@@ -30,9 +30,9 @@
 #include <QDebug>
 #include <QtGlobal>
 
-#include "Engine.h"
-#include "Lv2Manager.h"
-#include "Lv2Proc.h"
+#include "core/Engine.h"
+#include "core/lv2/Lv2Manager.h"
+#include "core/lv2/Lv2Proc.h"
 
 
 

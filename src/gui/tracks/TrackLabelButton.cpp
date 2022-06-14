@@ -28,13 +28,13 @@
 
 #include <QMouseEvent>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "embed.h"
-#include "Engine.h"
-#include "Instrument.h"
+#include "core/Engine.h"
+#include "core/Instrument.h"
 #include "InstrumentTrack.h"
 #include "RenameDialog.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "TrackRenameLineEdit.h"
 #include "TrackView.h"
 

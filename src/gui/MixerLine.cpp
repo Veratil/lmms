@@ -37,12 +37,12 @@
 #include "embed.h"
 #include "Knob.h"
 #include "LcdWidget.h"
-#include "Mixer.h"
+#include "core/Mixer.h"
 #include "MixerView.h"
 #include "gui_templates.h"
 #include "GuiApplication.h"
 #include "SendButtonIndicator.h"
-#include "Song.h"
+#include "core/Song.h"
 
 bool MixerLine::eventFilter( QObject *dist, QEvent *event )
 {

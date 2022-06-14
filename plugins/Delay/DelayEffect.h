@@ -25,7 +25,7 @@
 #ifndef DELAYEFFECT_H
 #define DELAYEFFECT_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "DelayControls.h"
 
 class Lfo;

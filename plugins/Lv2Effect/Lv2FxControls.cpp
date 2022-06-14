@@ -26,7 +26,7 @@
 
 #include <QDomElement>
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "Lv2Effect.h"
 #include "Lv2FxControlDialog.h"
 

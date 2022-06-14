@@ -30,7 +30,7 @@
 #include <QMdiSubWindow>
 #include <QMutex>
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 
 

@@ -26,7 +26,7 @@
 #include <QMessageBox>
 
 #include "ExportProjectDialog.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
 #include "OutputSettings.h"

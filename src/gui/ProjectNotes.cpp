@@ -38,10 +38,10 @@
 #include <QDomCDATASection>
 
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "Song.h"
+#include "core/Song.h"
 
 
 

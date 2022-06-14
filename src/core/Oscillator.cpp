@@ -23,19 +23,19 @@
  *
  */
 
-#include "Oscillator.h"
+#include "core/Oscillator.h"
 
 #include <algorithm>
 #if !defined(__MINGW32__) && !defined(__MINGW64__)
 	#include <thread>
 #endif
 
-#include "BufferManager.h"
-#include "Engine.h"
-#include "AudioEngine.h"
-#include "AutomatableModel.h"
+#include "core/BufferManager.h"
+#include "core/Engine.h"
+#include "core/AudioEngine.h"
+#include "core/AutomatableModel.h"
 #include "fftw3.h"
-#include "fft_helpers.h"
+#include "core/fft_helpers.h"
 
 
 

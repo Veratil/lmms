@@ -26,7 +26,7 @@
 
 #include <QPainter>
 
-#include "Song.h"
+#include "core/Song.h"
 
 
 PositionLine::PositionLine(QWidget* parent) :

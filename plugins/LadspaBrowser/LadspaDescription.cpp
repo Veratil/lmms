@@ -30,10 +30,10 @@
 #include <QScrollArea>
 #include <QVBoxLayout>
 
-#include "AudioDevice.h"
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "Ladspa2LMMS.h"
+#include "core/audio/AudioDevice.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/Ladspa2LMMS.h"
 
 
 

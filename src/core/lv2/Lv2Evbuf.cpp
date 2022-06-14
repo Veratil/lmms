@@ -26,7 +26,7 @@
  * The original code was written by David Robillard <http://drobilla.net>
  */
 
-#include "Lv2Evbuf.h"
+#include "core/lv2/Lv2Evbuf.h"
 
 #ifdef LMMS_HAVE_LV2
 

@@ -26,7 +26,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 
-#include "InstrumentFunctions.h"
+#include "core/InstrumentFunctions.h"
 #include "InstrumentFunctionViews.h"
 #include "ComboBox.h"
 #include "GroupBox.h"

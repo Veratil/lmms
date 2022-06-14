@@ -27,8 +27,8 @@
 
 #include <QWidget>
 
-#include "JournallingObject.h"
-#include "TimePos.h"
+#include "core/JournallingObject.h"
+#include "core/TimePos.h"
 
 
 class QMimeData;

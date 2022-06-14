@@ -24,8 +24,8 @@
  */
 
 #include "core/common.h"
-#include "MidiClient.h"
-#include "MidiPort.h"
+#include "core/midi/MidiClient.h"
+#include "core/midi/MidiPort.h"
 
 
 MidiClient::MidiClient()

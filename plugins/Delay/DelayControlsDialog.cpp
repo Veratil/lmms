@@ -22,7 +22,7 @@
  *
  */
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "DelayControlsDialog.h"
 #include "DelayControls.h"
 #include "embed.h"

@@ -25,12 +25,12 @@
 #include <QDomElement>
 
 #include "Watsyn.h"
-#include "base64.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/base64.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "lmms_math.h"
 #include "interpolation.h"
 

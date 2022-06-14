@@ -25,12 +25,12 @@
 
 #include <QDomElement>
 
-#include "Effect.h"
-#include "EffectChain.h"
+#include "core/Effect.h"
+#include "core/EffectChain.h"
 #include "EffectControls.h"
 #include "EffectView.h"
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 
 Effect::Effect( const Plugin::Descriptor * _desc,

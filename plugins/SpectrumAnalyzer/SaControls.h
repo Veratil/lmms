@@ -25,7 +25,7 @@
 #ifndef SACONTROLS_H
 #define SACONTROLS_H
 
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 #include "EffectControls.h"
 
 //#define SA_DEBUG 1	// define SA_DEBUG to enable performance measurements

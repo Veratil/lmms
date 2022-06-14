@@ -26,7 +26,7 @@
 #include <QClipboard>
 #include <QMimeData>
 
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 
 namespace Clipboard

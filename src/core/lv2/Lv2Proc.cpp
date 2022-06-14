@@ -22,7 +22,7 @@
  *
  */
 
-#include "Lv2Proc.h"
+#include "core/lv2/Lv2Proc.h"
 
 #ifdef LMMS_HAVE_LV2
 
@@ -33,16 +33,16 @@
 #include <QDebug>
 #include <QtGlobal>
 
-#include "AudioEngine.h"
-#include "AutomatableModel.h"
-#include "ComboBoxModel.h"
-#include "Engine.h"
-#include "Lv2Features.h"
-#include "Lv2Manager.h"
-#include "Lv2Ports.h"
-#include "Lv2Evbuf.h"
+#include "core/AudioEngine.h"
+#include "core/AutomatableModel.h"
+#include "core/ComboBoxModel.h"
+#include "core/Engine.h"
+#include "core/lv2/Lv2Features.h"
+#include "core/lv2/Lv2Manager.h"
+#include "core/lv2/Lv2Ports.h"
+#include "core/lv2/Lv2Evbuf.h"
 #include "MidiEvent.h"
-#include "MidiEventToByteSeq.h"
+#include "core/midi/MidiEventToByteSeq.h"
 
 
 

@@ -28,8 +28,8 @@
 #ifndef LADSPA_SUBPLUGIN_FEATURES_H
 #define LADSPA_SUBPLUGIN_FEATURES_H
 
-#include "LadspaManager.h"
-#include "Plugin.h"
+#include "core/LadspaManager.h"
+#include "core/Plugin.h"
 
 
 class LadspaSubPluginFeatures : public Plugin::Descriptor::SubPluginFeatures

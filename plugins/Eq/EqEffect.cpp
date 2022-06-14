@@ -24,7 +24,7 @@
 
 #include "EqEffect.h"
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "lmms_math.h"
 
 #include "embed.h"

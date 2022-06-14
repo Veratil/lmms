@@ -26,14 +26,14 @@
 #include <QFile>
 
 #include "core/common.h"
-#include "ProjectRenderer.h"
-#include "Song.h"
-#include "PerfLog.h"
+#include "core/ProjectRenderer.h"
+#include "core/Song.h"
+#include "core/PerfLog.h"
 
-#include "AudioFileWave.h"
-#include "AudioFileOgg.h"
-#include "AudioFileMP3.h"
-#include "AudioFileFlac.h"
+#include "core/audio/AudioFileWave.h"
+#include "core/audio/AudioFileOgg.h"
+#include "core/audio/AudioFileMP3.h"
+#include "core/audio/AudioFileFlac.h"
 
 const ProjectRenderer::FileEncodeDevice ProjectRenderer::fileEncodeDevices[] =
 {

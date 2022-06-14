@@ -26,10 +26,10 @@
 
 #include <QDomElement>
 
-#include "EffectChain.h"
-#include "Effect.h"
+#include "core/EffectChain.h"
+#include "core/Effect.h"
 #include "DummyEffect.h"
-#include "MixHelpers.h"
+#include "core/MixHelpers.h"
 
 
 EffectChain::EffectChain( Model * _parent ) :

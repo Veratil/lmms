@@ -34,10 +34,10 @@
 //     - Pre-bend/post-bend in poly mode could use portamento speed?
 
 #include "OpulenZ.h"
-#include "Instrument.h"
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "InstrumentPlayHandle.h"
+#include "core/Instrument.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/InstrumentPlayHandle.h"
 #include "InstrumentTrack.h"
 
 #include <QFile>

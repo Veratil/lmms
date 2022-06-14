@@ -23,7 +23,7 @@
  *
  */
 
-#include "BandLimitedWave.h"
+#include "core/BandLimitedWave.h"
 
 #include <QDataStream>
 

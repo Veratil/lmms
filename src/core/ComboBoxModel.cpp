@@ -22,7 +22,7 @@
  *
  */
 
-#include "ComboBoxModel.h"
+#include "core/ComboBoxModel.h"
 
 #include <cassert>
 

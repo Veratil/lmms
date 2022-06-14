@@ -22,7 +22,7 @@
  *
  */
 
-#include "Song.h"
+#include "core/Song.h"
 #include <QTextStream>
 #include <QCoreApplication>
 #include <QDebug>
@@ -34,28 +34,28 @@
 
 #include "AutomationTrack.h"
 #include "AutomationEditor.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "ControllerRackView.h"
-#include "ControllerConnection.h"
-#include "EnvelopeAndLfoParameters.h"
-#include "Mixer.h"
+#include "core/ControllerConnection.h"
+#include "core/EnvelopeAndLfoParameters.h"
+#include "core/Mixer.h"
 #include "MixerView.h"
 #include "GuiApplication.h"
 #include "ExportFilter.h"
 #include "InstrumentTrack.h"
-#include "Keymap.h"
-#include "NotePlayHandle.h"
+#include "core/Keymap.h"
+#include "core/NotePlayHandle.h"
 #include "MidiClip.h"
 #include "PatternEditor.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "PatternTrack.h"
 #include "PianoRoll.h"
-#include "ProjectJournal.h"
+#include "core/ProjectJournal.h"
 #include "ProjectNotes.h"
-#include "Scale.h"
+#include "core/Scale.h"
 #include "SongEditor.h"
 #include "TimeLineWidget.h"
-#include "PeakController.h"
+#include "core/PeakController.h"
 
 
 tick_t TimePos::s_ticksPerBar = DefaultTicksPerBar;

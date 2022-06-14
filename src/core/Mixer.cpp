@@ -24,17 +24,17 @@
 
 #include <QDomElement>
 
-#include "AudioEngine.h"
-#include "AudioEngineWorkerThread.h"
-#include "BufferManager.h"
-#include "Mixer.h"
-#include "MixHelpers.h"
-#include "Song.h"
+#include "core/AudioEngine.h"
+#include "core/AudioEngineWorkerThread.h"
+#include "core/BufferManager.h"
+#include "core/Mixer.h"
+#include "core/MixHelpers.h"
+#include "core/Song.h"
 
 #include "InstrumentTrack.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "SampleTrack.h"
-#include "TrackContainer.h" // For TrackContainer::TrackList typedef
+#include "core/TrackContainer.h" // For TrackContainer::TrackList typedef
 
 MixerRoute::MixerRoute( MixerChannel * from, MixerChannel * to, float amount ) :
 	m_from( from ),

@@ -23,7 +23,7 @@
  */
 
 #include "DelayEffect.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "embed.h"
 #include "Lfo.h"
 #include "lmms_math.h"

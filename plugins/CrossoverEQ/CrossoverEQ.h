@@ -27,7 +27,7 @@
 #ifndef CROSSOVEREQ_H
 #define CROSSOVEREQ_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "CrossoverEQControls.h"
 #include "BasicFilters.h"
 

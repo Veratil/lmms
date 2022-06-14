@@ -22,11 +22,11 @@
  *
  */
 
-#include "Keymap.h"
+#include "core/Keymap.h"
 
 #include <QDomElement>
 
-#include "Note.h"
+#include "core/Note.h"
 
 
 Keymap::Keymap() :

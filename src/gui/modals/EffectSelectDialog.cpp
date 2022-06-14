@@ -27,9 +27,9 @@
 #include "ui_EffectSelectDialog.h"
 
 #include "DummyEffect.h"
-#include "EffectChain.h"
+#include "core/EffectChain.h"
 #include "embed.h"
-#include "PluginFactory.h"
+#include "core/PluginFactory.h"
 
 #include <QLabel>
 

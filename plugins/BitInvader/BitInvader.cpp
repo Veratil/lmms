@@ -26,16 +26,16 @@
 #include <QDomElement>
 
 #include "BitInvader.h"
-#include "AudioEngine.h"
-#include "base64.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/base64.h"
+#include "core/Engine.h"
 #include "Graph.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
 #include "LedCheckBox.h"
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "interpolation.h"
 
 #include "embed.h"

@@ -23,16 +23,16 @@
  *
  */
 
-#include "MidiApple.h"
+#include "core/midi/MidiApple.h"
 
 #ifdef LMMS_BUILD_APPLE
 
 #include <QtAlgorithms>
 #include <algorithm>
 
-#include "ConfigManager.h"
-#include "MidiPort.h"
-#include "Note.h"
+#include "core/ConfigManager.h"
+#include "core/midi/MidiPort.h"
+#include "core/Note.h"
 
 #include <CoreMIDI/CoreMIDI.h>
 

@@ -26,11 +26,11 @@
 #include <memory>
 #include <QMessageBox>
 
-#include "ImportFilter.h"
-#include "Engine.h"
-#include "TrackContainer.h"
-#include "PluginFactory.h"
-#include "ProjectJournal.h"
+#include "core/ImportFilter.h"
+#include "core/Engine.h"
+#include "core/TrackContainer.h"
+#include "core/PluginFactory.h"
+#include "core/ProjectJournal.h"
 
 
 using std::unique_ptr;

@@ -22,19 +22,19 @@
  *
  */
 
-#include "AudioSoundIo.h"
+#include "core/audio/AudioSoundIo.h"
 
 #ifdef LMMS_HAVE_SOUNDIO
 
 #include <QLabel>
 #include <QLineEdit>
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "debug.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "gui_templates.h"
 #include "ComboBox.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 
 AudioSoundIo::AudioSoundIo( bool & outSuccessful, AudioEngine * _audioEngine ) :
 	AudioDevice( qBound<ch_cnt_t>(

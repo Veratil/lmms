@@ -26,8 +26,8 @@
 
 #include "FlangerControls.h"
 #include "FlangerEffect.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 
 
 

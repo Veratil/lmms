@@ -23,11 +23,11 @@
  */
 
 #include "core/common.h"
-#include "MidiAlsaSeq.h"
-#include "ConfigManager.h"
-#include "Engine.h"
-#include "Song.h"
-#include "MidiPort.h"
+#include "core/midi/MidiAlsaSeq.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
+#include "core/Song.h"
+#include "core/midi/MidiPort.h"
 
 
 #ifdef LMMS_HAVE_ALSA

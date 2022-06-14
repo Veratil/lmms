@@ -27,21 +27,21 @@
  */
 
 
-#include "Track.h"
+#include "core/Track.h"
 
 #include <QDomElement>
 #include <QVariant>
 
 #include "core/common.h"
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 #include "AutomationTrack.h"
-#include "ConfigManager.h"
-#include "Engine.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "PatternTrack.h"
 #include "SampleTrack.h"
-#include "Song.h"
+#include "core/Song.h"
 
 
 /*! \brief Create a new (empty) track object

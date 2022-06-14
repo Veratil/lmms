@@ -29,13 +29,13 @@
 
 #include "InstrumentMidiIOView.h"
 #include "MidiPortMenu.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "embed.h"
 #include "GroupBox.h"
 #include "gui_templates.h"
 #include "LcdSpinBox.h"
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 
 
 InstrumentMidiIOView::InstrumentMidiIOView( QWidget* parent ) :

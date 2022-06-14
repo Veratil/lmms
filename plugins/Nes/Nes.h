@@ -27,9 +27,9 @@
 
 #include <cmath>
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "PixmapButton.h"
 #include "core/MemoryManager.h"
 

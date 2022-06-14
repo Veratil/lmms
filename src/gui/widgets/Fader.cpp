@@ -53,7 +53,7 @@
 #include "lmms_math.h"
 #include "embed.h"
 #include "CaptionMenu.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "TextFloat.h"
 
 

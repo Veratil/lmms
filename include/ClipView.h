@@ -30,7 +30,7 @@
 
 #include "ModelView.h"
 #include "Rubberband.h"
-#include "Clip.h"
+#include "core/Clip.h"
 
 
 class QMenu;

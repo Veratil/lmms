@@ -31,7 +31,7 @@
 #include <QScrollArea>
 
 #include "ModelView.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "Fader.h"
 #include "PixmapButton.h"
 #include "embed.h"

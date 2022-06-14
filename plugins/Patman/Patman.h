@@ -26,10 +26,10 @@
 #ifndef PATMAN_H_
 #define PATMAN_H_
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "SampleBuffer.h"
-#include "AutomatableModel.h"
+#include "core/SampleBuffer.h"
+#include "core/AutomatableModel.h"
 #include "core/MemoryManager.h"
 
 class PixmapButton;

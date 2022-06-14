@@ -30,7 +30,7 @@
 #include <QPointer>
 
 #include "Knob.h"
-#include "TempoSyncKnobModel.h"
+#include "core/TempoSyncKnobModel.h"
 
 class MeterDialog;
 

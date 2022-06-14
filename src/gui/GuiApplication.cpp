@@ -30,7 +30,7 @@
 #include "LmmsPalette.h"
 
 #include "AutomationEditor.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "ControllerRackView.h"
 #include "MixerView.h"
 #include "MainWindow.h"

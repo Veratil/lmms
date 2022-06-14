@@ -26,7 +26,7 @@
 
 #include <QHBoxLayout>
 
-#include "LadspaControl.h"
+#include "core/LadspaControl.h"
 #include "LadspaControlView.h"
 #include "LadspaBase.h"
 #include "LedCheckBox.h"

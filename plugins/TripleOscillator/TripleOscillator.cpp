@@ -27,16 +27,16 @@
 #include <QDomElement>
 
 #include "TripleOscillator.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "AutomatableButton.h"
 #include "debug.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
-#include "NotePlayHandle.h"
-#include "Oscillator.h"
+#include "core/NotePlayHandle.h"
+#include "core/Oscillator.h"
 #include "PixmapButton.h"
-#include "SampleBuffer.h"
+#include "core/SampleBuffer.h"
 
 #include "embed.h"
 #include "plugin_export.h"

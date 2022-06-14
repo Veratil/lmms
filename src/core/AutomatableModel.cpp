@@ -22,16 +22,16 @@
  *
  */
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 
 #include "lmms_math.h"
 
-#include "AudioEngine.h"
-#include "AutomationClip.h"
-#include "ControllerConnection.h"
+#include "core/AudioEngine.h"
+#include "core/AutomationClip.h"
+#include "core/ControllerConnection.h"
 #include "LocaleHelper.h"
-#include "ProjectJournal.h"
-#include "Song.h"
+#include "core/ProjectJournal.h"
+#include "core/Song.h"
 
 long AutomatableModel::s_periodCounter = 0;
 

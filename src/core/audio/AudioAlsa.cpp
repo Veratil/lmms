@@ -23,14 +23,14 @@
  */
 
 
-#include "AudioAlsa.h"
+#include "core/audio/AudioAlsa.h"
 
 #ifdef LMMS_HAVE_ALSA
 
 #include "endian_handling.h"
-#include "AudioEngine.h"
-#include "ConfigManager.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
 
 
 AudioAlsa::AudioAlsa( bool & _success_ful, AudioEngine*  _audioEngine ) :

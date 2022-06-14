@@ -28,7 +28,7 @@
 #include <QLabel>
 
 #include "VstSubPluginFeatures.h"
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 
 

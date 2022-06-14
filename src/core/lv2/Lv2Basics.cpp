@@ -22,7 +22,7 @@
  *
  */
 
-#include "Lv2Basics.h"
+#include "core/lv2/Lv2Basics.h"
 
 #ifdef LMMS_HAVE_LV2
 

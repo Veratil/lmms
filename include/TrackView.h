@@ -29,7 +29,7 @@
 
 #include <QWidget>
 
-#include "JournallingObject.h"
+#include "core/JournallingObject.h"
 #include "ModelView.h"
 #include "TrackContentWidget.h"
 #include "TrackOperationsWidget.h"

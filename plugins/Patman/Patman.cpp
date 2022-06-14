@@ -29,18 +29,18 @@
 #include <QPainter>
 #include <QDomElement>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "endian_handling.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "FileDialog.h"
 #include "gui_templates.h"
 #include "InstrumentTrack.h"
-#include "NotePlayHandle.h"
-#include "PathUtil.h"
+#include "core/NotePlayHandle.h"
+#include "core/PathUtil.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 #include "embed.h"
 

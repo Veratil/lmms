@@ -28,10 +28,10 @@
 #include <QMap>
 #include <QMutex>
 
-#include "AutomatableModel.h"
-#include "Instrument.h"
+#include "core/AutomatableModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "RemotePlugin.h"
+#include "core/RemotePlugin.h"
 #include "zynaddsubfx/src/globals.h"
 
 

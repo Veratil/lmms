@@ -28,11 +28,11 @@
 #include <QMenu>
 #include <QPainter>
 
-#include "Engine.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
-#include "PatternClip.h"
-#include "PatternStore.h"
+#include "core/PatternClip.h"
+#include "core/PatternStore.h"
 #include "RenameDialog.h"
 
 PatternClipView::PatternClipView(Clip* _clip, TrackView* _tv) :

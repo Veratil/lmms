@@ -26,9 +26,9 @@
 #ifndef FREEBOY_H
 #define FREEBOY_H
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "Blip_Buffer.h"
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "Graph.h"
 

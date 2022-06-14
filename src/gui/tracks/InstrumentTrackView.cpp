@@ -31,19 +31,19 @@
 #include <QMdiSubWindow>
 #include <QMenu>
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
 #include "FadeButton.h"
 #include "Knob.h"
 #include "MidiCCRackView.h"
-#include "Mixer.h"
+#include "core/Mixer.h"
 #include "MixerView.h"
 #include "GuiApplication.h"
 #include "InstrumentTrack.h"
 #include "InstrumentTrackWindow.h"
 #include "MainWindow.h"
-#include "MidiClient.h"
+#include "core/midi/MidiClient.h"
 #include "MidiPortMenu.h"
 #include "TrackLabelButton.h"
 

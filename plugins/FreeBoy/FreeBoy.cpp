@@ -28,13 +28,13 @@
 #include <QDomElement>
 #include "FreeBoy.h"
 #include "Gb_Apu_Buffer.h"
-#include "base64.h"
+#include "core/base64.h"
 #include "InstrumentTrack.h"
 #include "Knob.h"
-#include "AudioEngine.h"
-#include "NotePlayHandle.h"
+#include "core/AudioEngine.h"
+#include "core/NotePlayHandle.h"
 #include "PixmapButton.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "Graph.h"
 
 #include "embed.h"

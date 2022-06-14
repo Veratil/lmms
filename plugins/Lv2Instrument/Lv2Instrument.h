@@ -27,10 +27,10 @@
 
 #include <QString>
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "Note.h"
-#include "Lv2ControlBase.h"
+#include "core/Note.h"
+#include "core/lv2/Lv2ControlBase.h"
 #include "Lv2ViewBase.h"
 
 // whether to use MIDI vs playHandle

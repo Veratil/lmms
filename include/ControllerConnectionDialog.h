@@ -31,8 +31,8 @@
 #include <QSortFilterProxyModel>
 #include <QStandardItemModel>
 
-#include "Controller.h"
-#include "AutomatableModel.h"
+#include "core/Controller.h"
+#include "core/AutomatableModel.h"
 
 
 class QLineEdit;

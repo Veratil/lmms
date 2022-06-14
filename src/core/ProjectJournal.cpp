@@ -24,10 +24,10 @@
 
 #include <cstdlib>
 
-#include "ProjectJournal.h"
-#include "Engine.h"
-#include "JournallingObject.h"
-#include "Song.h"
+#include "core/ProjectJournal.h"
+#include "core/Engine.h"
+#include "core/JournallingObject.h"
+#include "core/Song.h"
 
 //! Avoid clashes between loaded IDs (have the bit cleared)
 //! and newly created IDs (have the bit set)

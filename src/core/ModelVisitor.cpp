@@ -22,11 +22,11 @@
  *
  */
 
-#include "ModelVisitor.h"
+#include "core/ModelVisitor.h"
 
-#include "AutomatableModel.h"
-#include "ComboBoxModel.h"
-#include "TempoSyncKnobModel.h"
+#include "core/AutomatableModel.h"
+#include "core/ComboBoxModel.h"
+#include "core/TempoSyncKnobModel.h"
 
 void ModelVisitor::visit(BoolModel &m) { up(m); }
 void ModelVisitor::visit(IntModel &m) { up(m); }

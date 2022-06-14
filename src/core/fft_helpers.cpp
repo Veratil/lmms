@@ -24,7 +24,7 @@
  */
 
 
-#include "fft_helpers.h"
+#include "core/fft_helpers.h"
 
 #include <cmath>
 #include "lmms_constants.h"

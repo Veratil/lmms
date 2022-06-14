@@ -29,13 +29,13 @@
 #include <QMessageBox>
 #include <QVBoxLayout>
 
-#include "Song.h"
+#include "core/Song.h"
 #include "embed.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"
 #include "ControllerRackView.h"
 #include "ControllerView.h"
-#include "LfoController.h"
+#include "core/LfoController.h"
 #include "SubWindow.h"
 
 

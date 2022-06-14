@@ -23,7 +23,7 @@
  */
 
 #include "FlangerEffect.h"
-#include "Engine.h"
+#include "core/Engine.h"
 
 #include "embed.h"
 #include "plugin_export.h"

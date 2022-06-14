@@ -22,15 +22,15 @@
  *
  */
 
-#include "Clip.h"
+#include "core/Clip.h"
 
 #include <QDomDocument>
 
 #include "AutomationEditor.h"
-#include "AutomationClip.h"
-#include "Engine.h"
+#include "core/AutomationClip.h"
+#include "core/Engine.h"
 #include "GuiApplication.h"
-#include "Song.h"
+#include "core/Song.h"
 
 
 /*! \brief Create a new Clip

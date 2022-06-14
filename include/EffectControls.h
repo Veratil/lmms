@@ -25,9 +25,9 @@
 #ifndef EFFECT_CONTROLS_H
 #define EFFECT_CONTROLS_H
 
-#include "Model.h"
-#include "JournallingObject.h"
-#include "Effect.h"
+#include "core/Model.h"
+#include "core/JournallingObject.h"
+#include "core/Effect.h"
 
 class EffectControlDialog;
 

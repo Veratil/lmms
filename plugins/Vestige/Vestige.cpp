@@ -40,24 +40,24 @@
 #include <QDomElement>
 
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
 #include "CustomTextKnob.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "FileDialog.h"
 #include "GuiApplication.h"
 #include "gui_templates.h"
-#include "InstrumentPlayHandle.h"
+#include "core/InstrumentPlayHandle.h"
 #include "InstrumentTrack.h"
 #include "LocaleHelper.h"
 #include "MainWindow.h"
-#include "PathUtil.h"
+#include "core/PathUtil.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
 #include "SubWindow.h"
 #include "TextFloat.h"
-#include "Clipboard.h"
+#include "core/Clipboard.h"
 
 
 #include "embed.h"

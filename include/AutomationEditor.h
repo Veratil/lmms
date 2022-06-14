@@ -31,10 +31,10 @@
 #include "Editor.h"
 
 #include "lmms_basics.h"
-#include "JournallingObject.h"
-#include "TimePos.h"
-#include "AutomationClip.h"
-#include "ComboBoxModel.h"
+#include "core/JournallingObject.h"
+#include "core/TimePos.h"
+#include "core/AutomationClip.h"
+#include "core/ComboBoxModel.h"
 
 class QPainter;
 class QPixmap;

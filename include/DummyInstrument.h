@@ -26,13 +26,13 @@
 #ifndef DUMMY_INSTRUMENT_H
 #define DUMMY_INSTRUMENT_H
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "Engine.h"
+#include "core/Engine.h"
 
 #include <cstring>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 
 
 class DummyInstrument : public Instrument

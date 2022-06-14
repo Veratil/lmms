@@ -28,7 +28,7 @@
 #include <QWidget>
 
 #include "ModelView.h"
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 
 class EffectRackView;

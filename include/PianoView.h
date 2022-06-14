@@ -28,7 +28,7 @@
 #include <QPixmap>
 #include <QScrollBar>
 
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "ModelView.h"
 
 class Piano;

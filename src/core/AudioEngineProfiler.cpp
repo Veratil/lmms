@@ -22,7 +22,7 @@
  *
  */
 
-#include "AudioEngineProfiler.h"
+#include "core/AudioEngineProfiler.h"
 
 
 AudioEngineProfiler::AudioEngineProfiler() :

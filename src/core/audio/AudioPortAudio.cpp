@@ -24,7 +24,7 @@
  */
 
 
-#include "AudioPortAudio.h"
+#include "core/audio/AudioPortAudio.h"
 
 #ifndef LMMS_HAVE_PORTAUDIO
 void AudioPortAudioSetupUtil::updateBackends()
@@ -44,11 +44,11 @@ void AudioPortAudioSetupUtil::updateChannels()
 
 #include <QLabel>
 
-#include "Engine.h"
-#include "ConfigManager.h"
+#include "core/Engine.h"
+#include "core/ConfigManager.h"
 #include "gui_templates.h"
 #include "ComboBox.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 
 
 AudioPortAudio::AudioPortAudio( bool & _success_ful, AudioEngine * _audioEngine ) :

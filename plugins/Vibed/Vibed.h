@@ -24,7 +24,7 @@
 #ifndef _VIBED_H
 #define _VIBED_H
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "NineButtonSelector.h"
 

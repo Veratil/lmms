@@ -28,10 +28,10 @@
 #include <QTableWidget>
 #include <QVBoxLayout>
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "embed.h"
-#include "Engine.h"
-#include "Ladspa2LMMS.h"
+#include "core/Engine.h"
+#include "core/Ladspa2LMMS.h"
 
 
 LadspaPortDialog::LadspaPortDialog( const ladspa_key_t & _key )

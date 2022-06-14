@@ -28,8 +28,8 @@
 #include <QObject>
 
 #include "core/common.h"
-#include "Song.h"
-#include "ControllerConnection.h"
+#include "core/Song.h"
+#include "core/ControllerConnection.h"
 
 
 ControllerConnectionVector ControllerConnection::s_connections;

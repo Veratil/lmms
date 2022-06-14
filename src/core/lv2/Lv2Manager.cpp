@@ -22,7 +22,7 @@
  *
  */
 
-#include "Lv2Manager.h"
+#include "core/lv2/Lv2Manager.h"
 
 #ifdef LMMS_HAVE_LV2
 
@@ -35,11 +35,11 @@
 #include <QDebug>
 #include <QElapsedTimer>
 
-#include "Engine.h"
-#include "Plugin.h"
-#include "Lv2ControlBase.h"
-#include "Lv2Options.h"
-#include "PluginIssue.h"
+#include "core/Engine.h"
+#include "core/Plugin.h"
+#include "core/lv2/Lv2ControlBase.h"
+#include "core/lv2/Lv2Options.h"
+#include "core/PluginIssue.h"
 
 
 

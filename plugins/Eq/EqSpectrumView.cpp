@@ -26,8 +26,8 @@
 #include <QPainter>
 #include <QPen>
 
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "EqCurve.h"
 #include "GuiApplication.h"
 #include "MainWindow.h"

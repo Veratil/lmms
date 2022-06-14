@@ -30,11 +30,11 @@
 #include "GuiApplication.h"
 #include "gui_templates.h"
 #include "MainWindow.h"
-#include "AudioEngine.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 #include "embed.h"
-#include "BufferManager.h"
+#include "core/BufferManager.h"
 
 
 Oscilloscope::Oscilloscope( QWidget * _p ) :

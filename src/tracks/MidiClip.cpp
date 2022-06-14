@@ -30,7 +30,7 @@
 #include "GuiApplication.h"
 #include "InstrumentTrack.h"
 #include "MidiClipView.h"
-#include "PatternStore.h"
+#include "core/PatternStore.h"
 #include "PianoRoll.h"
 
 

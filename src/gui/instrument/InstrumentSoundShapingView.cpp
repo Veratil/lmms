@@ -25,7 +25,7 @@
 #include <QLabel>
 
 #include "InstrumentSoundShapingView.h"
-#include "EnvelopeAndLfoParameters.h"
+#include "core/EnvelopeAndLfoParameters.h"
 #include "EnvelopeAndLfoView.h"
 #include "ComboBox.h"
 #include "GroupBox.h"

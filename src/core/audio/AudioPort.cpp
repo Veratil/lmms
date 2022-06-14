@@ -22,14 +22,14 @@
  *
  */
 
-#include "AudioPort.h"
-#include "AudioDevice.h"
-#include "AudioEngine.h"
-#include "EffectChain.h"
-#include "Mixer.h"
-#include "Engine.h"
-#include "MixHelpers.h"
-#include "BufferManager.h"
+#include "core/audio/AudioPort.h"
+#include "core/audio/AudioDevice.h"
+#include "core/AudioEngine.h"
+#include "core/EffectChain.h"
+#include "core/Mixer.h"
+#include "core/Engine.h"
+#include "core/MixHelpers.h"
+#include "core/BufferManager.h"
 
 
 AudioPort::AudioPort( const QString & _name, bool _has_effect_chain,

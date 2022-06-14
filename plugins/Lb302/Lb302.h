@@ -33,9 +33,9 @@
 #define LB302_H_
 
 #include "DspEffectLibrary.h"
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 #include <QMutex>
 
 static const int NUM_FILTERS = 2;

@@ -4,7 +4,7 @@
 #include <QWidget>
 
 #include "Midi.h"
-#include "SerializingObject.h"
+#include "core/SerializingObject.h"
 
 class GroupBox;
 class InstrumentTrack;

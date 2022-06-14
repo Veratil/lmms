@@ -23,7 +23,7 @@
  *
  */
 
-#include "AudioSndio.h"
+#include "core/audio/AudioSndio.h"
 
 #ifdef LMMS_HAVE_SNDIO
 
@@ -33,11 +33,11 @@
 
 #include "endian_handling.h"
 #include "LcdSpinBox.h"
-#include "AudioEngine.h"
-#include "Engine.h"
+#include "core/AudioEngine.h"
+#include "core/Engine.h"
 #include "gui_templates.h"
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 
 

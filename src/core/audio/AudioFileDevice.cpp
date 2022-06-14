@@ -25,7 +25,7 @@
 
 #include <QMessageBox>
 
-#include "AudioFileDevice.h"
+#include "core/audio/AudioFileDevice.h"
 #include "ExportProjectDialog.h"
 #include "GuiApplication.h"
 

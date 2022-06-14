@@ -27,7 +27,7 @@
 #include "AutomationTrack.h"
 
 #include "AutomationTrackView.h"
-#include "AutomationClip.h"
+#include "core/AutomationClip.h"
 
 
 AutomationTrack::AutomationTrack( TrackContainer* tc, bool _hidden ) :

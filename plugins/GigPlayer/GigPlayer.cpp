@@ -36,18 +36,18 @@
 #include <QLabel>
 #include <QDomDocument>
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
 #include "endian_handling.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "FileDialog.h"
 #include "InstrumentTrack.h"
-#include "InstrumentPlayHandle.h"
+#include "core/InstrumentPlayHandle.h"
 #include "Knob.h"
-#include "NotePlayHandle.h"
-#include "PathUtil.h"
-#include "SampleBuffer.h"
-#include "Song.h"
+#include "core/NotePlayHandle.h"
+#include "core/PathUtil.h"
+#include "core/SampleBuffer.h"
+#include "core/Song.h"
 
 #include "PatchesDialog.h"
 #include "LcdSpinBox.h"

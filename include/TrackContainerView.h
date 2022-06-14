@@ -31,10 +31,10 @@
 #include <QWidget>
 #include <QThread>
 
-#include "JournallingObject.h"
+#include "core/JournallingObject.h"
 #include "ModelView.h"
 #include "Rubberband.h"
-#include "TimePos.h"
+#include "core/TimePos.h"
 
 
 class QVBoxLayout;

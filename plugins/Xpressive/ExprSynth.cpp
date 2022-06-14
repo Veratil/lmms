@@ -33,7 +33,7 @@
 
 #include "interpolation.h"
 #include "lmms_math.h"
-#include "NotePlayHandle.h"
+#include "core/NotePlayHandle.h"
 
 
 #include "exprtk.hpp"

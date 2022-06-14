@@ -26,7 +26,7 @@
 #include "VstEffect.h"
 
 #include "GuiApplication.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "TextFloat.h"
 #include "VstPlugin.h"
 #include "VstSubPluginFeatures.h"

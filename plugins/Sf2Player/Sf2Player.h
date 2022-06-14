@@ -31,7 +31,7 @@
 #include <QMutex>
 #include <samplerate.h>
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "LcdSpinBox.h"
 #include "core/MemoryManager.h"

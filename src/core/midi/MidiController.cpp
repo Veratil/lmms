@@ -25,8 +25,8 @@
 
 #include <QDomElement>
 
-#include "AudioEngine.h"
-#include "MidiController.h"
+#include "core/AudioEngine.h"
+#include "core/midi/MidiController.h"
 
 
 MidiController::MidiController( Model * _parent ) :

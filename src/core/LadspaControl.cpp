@@ -28,7 +28,7 @@
 #include <QDomElement>
 
 #include "core/common.h"
-#include "LadspaControl.h"
+#include "core/LadspaControl.h"
 #include "LadspaBase.h"
 
 

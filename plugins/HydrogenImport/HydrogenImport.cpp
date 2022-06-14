@@ -2,14 +2,14 @@
 
 #include "LocalFileMng.h"
 #include "HydrogenImport.h"
-#include "Song.h"
-#include "Engine.h"
-#include "Instrument.h"
+#include "core/Song.h"
+#include "core/Engine.h"
+#include "core/Instrument.h"
 #include "InstrumentTrack.h"
-#include "Note.h"
+#include "core/Note.h"
 #include "MidiClip.h"
-#include "PatternStore.h"
-#include "Track.h"
+#include "core/PatternStore.h"
+#include "core/Track.h"
 
 #include "plugin_export.h"
 

@@ -22,44 +22,44 @@
  *
  */
 
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 
 #include "denormals.h"
 
 #include "lmmsconfig.h"
 
-#include "AudioEngineWorkerThread.h"
-#include "AudioPort.h"
-#include "Mixer.h"
-#include "Song.h"
-#include "EnvelopeAndLfoParameters.h"
-#include "NotePlayHandle.h"
-#include "ConfigManager.h"
-#include "SamplePlayHandle.h"
+#include "core/AudioEngineWorkerThread.h"
+#include "core/audio/AudioPort.h"
+#include "core/Mixer.h"
+#include "core/Song.h"
+#include "core/EnvelopeAndLfoParameters.h"
+#include "core/NotePlayHandle.h"
+#include "core/ConfigManager.h"
+#include "core/SamplePlayHandle.h"
 #include "core/MemoryHelper.h"
 
 // platform-specific audio-interface-classes
-#include "AudioAlsa.h"
-#include "AudioJack.h"
-#include "AudioOss.h"
-#include "AudioSndio.h"
-#include "AudioPortAudio.h"
-#include "AudioSoundIo.h"
-#include "AudioPulseAudio.h"
-#include "AudioSdl.h"
+#include "core/audio/AudioAlsa.h"
+#include "core/audio/AudioJack.h"
+#include "core/audio/AudioOss.h"
+#include "core/audio/AudioSndio.h"
+#include "core/audio/AudioPortAudio.h"
+#include "core/audio/AudioSoundIo.h"
+#include "core/audio/AudioPulseAudio.h"
+#include "core/audio/AudioSdl.h"
 #include "AudioDummy.h"
 
 // platform-specific midi-interface-classes
-#include "MidiAlsaRaw.h"
-#include "MidiAlsaSeq.h"
-#include "MidiJack.h"
-#include "MidiOss.h"
-#include "MidiSndio.h"
-#include "MidiWinMM.h"
-#include "MidiApple.h"
+#include "core/midi/MidiAlsaRaw.h"
+#include "core/midi/MidiAlsaSeq.h"
+#include "core/midi/MidiJack.h"
+#include "core/midi/MidiOss.h"
+#include "core/midi/MidiSndio.h"
+#include "core/midi/MidiWinMM.h"
+#include "core/midi/MidiApple.h"
 #include "MidiDummy.h"
 
-#include "BufferManager.h"
+#include "core/BufferManager.h"
 
 typedef LocklessList<PlayHandle *>::Element LocklessListElement;
 

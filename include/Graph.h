@@ -31,7 +31,7 @@
 #include <QPixmap>
 #include <QCursor>
 
-#include "Model.h"
+#include "core/Model.h"
 #include "ModelView.h"
 #include "lmms_basics.h"
 

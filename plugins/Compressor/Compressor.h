@@ -28,7 +28,7 @@
 
 #include "CompressorControls.h"
 
-#include "Effect.h"
+#include "core/Effect.h"
 
 
 constexpr float COMP_LOG = -2.2;

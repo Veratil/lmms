@@ -29,20 +29,20 @@
 #include <QScrollBar>
 #include <QWheelEvent>
 
-#include "TrackContainer.h"
-#include "AudioEngine.h"
-#include "DataFile.h"
+#include "core/TrackContainer.h"
+#include "core/AudioEngine.h"
+#include "core/DataFile.h"
 #include "MainWindow.h"
 #include "FileBrowser.h"
-#include "ImportFilter.h"
-#include "Instrument.h"
+#include "core/ImportFilter.h"
+#include "core/Instrument.h"
 #include "InstrumentTrack.h"
 #include "PatternTrack.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "StringPairDrag.h"
 #include "TrackView.h"
 #include "GuiApplication.h"
-#include "PluginFactory.h"
+#include "core/PluginFactory.h"
 
 using namespace std;
 

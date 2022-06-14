@@ -27,15 +27,15 @@
 #include <QApplication>
 #include <QMenu>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "FadeButton.h"
-#include "Mixer.h"
+#include "core/Mixer.h"
 #include "MixerView.h"
 #include "GuiApplication.h"
 #include "Knob.h"
-#include "SampleClip.h"
+#include "core/SampleClip.h"
 #include "SampleTrackWindow.h"
 #include "StringPairDrag.h"
 #include "TrackContainerView.h"

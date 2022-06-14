@@ -27,8 +27,8 @@
 #ifndef BIT_INVADER_H
 #define BIT_INVADER_H
 
-#include "AutomatableModel.h"
-#include "Instrument.h"
+#include "core/AutomatableModel.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "Graph.h"
 #include "core/MemoryManager.h"

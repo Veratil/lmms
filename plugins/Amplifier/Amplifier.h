@@ -27,7 +27,7 @@
 #ifndef AMPLIFIER_H
 #define AMPLIFIER_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "AmplifierControls.h"
 
 class AmplifierEffect : public Effect

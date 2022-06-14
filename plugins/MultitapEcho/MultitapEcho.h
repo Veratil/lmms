@@ -26,9 +26,9 @@
 #ifndef MULTITAP_ECHO_H
 #define MULTITAP_ECHO_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "MultitapEchoControls.h"
-#include "RingBuffer.h"
+#include "core/RingBuffer.h"
 #include "BasicFilters.h"
 
 class MultitapEchoEffect : public Effect

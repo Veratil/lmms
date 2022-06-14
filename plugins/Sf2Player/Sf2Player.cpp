@@ -30,17 +30,17 @@
 #include <QDomElement>
 #include <QLabel>
 
-#include "AudioEngine.h"
-#include "ConfigManager.h"
+#include "core/AudioEngine.h"
+#include "core/ConfigManager.h"
 #include "FileDialog.h"
-#include "Engine.h"
+#include "core/Engine.h"
 #include "InstrumentTrack.h"
-#include "InstrumentPlayHandle.h"
+#include "core/InstrumentPlayHandle.h"
 #include "Knob.h"
-#include "NotePlayHandle.h"
-#include "PathUtil.h"
+#include "core/NotePlayHandle.h"
+#include "core/PathUtil.h"
 #include "PixmapButton.h"
-#include "Song.h"
+#include "core/Song.h"
 #include "fluidsynthshims.h"
 
 #include "PatchesDialog.h"

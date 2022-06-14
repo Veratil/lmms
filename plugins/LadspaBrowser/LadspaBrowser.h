@@ -27,8 +27,8 @@
 #ifndef _LADSPA_BROWSER_H
 #define _LADSPA_BROWSER_H
 
-#include "LadspaManager.h"
-#include "ToolPlugin.h"
+#include "core/LadspaManager.h"
+#include "core/ToolPlugin.h"
 #include "ToolPluginView.h"
 
 class TabBar;

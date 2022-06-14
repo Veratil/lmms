@@ -28,10 +28,10 @@
 
 #include <QMutex>
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "ladspa.h"
 #include "LadspaControls.h"
-#include "LadspaManager.h"
+#include "core/LadspaManager.h"
 
 
 typedef struct PortDescription port_desc_t;

@@ -2,9 +2,9 @@
 
 #include <QFileInfo>
 
-#include "ConfigManager.h"
-#include "Engine.h"
-#include "Song.h"
+#include "core/ConfigManager.h"
+#include "core/Engine.h"
+#include "core/Song.h"
 
 #include "embed.h"
 #include "GuiApplication.h"

@@ -27,7 +27,7 @@
 #ifndef _WAVESHAPER_H
 #define _WAVESHAPER_H
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "WaveShaperControls.h"
 
 

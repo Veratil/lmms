@@ -30,7 +30,7 @@
 #include <QList>
 #include <QMainWindow>
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 
 class QAction;
 class QDomElement;

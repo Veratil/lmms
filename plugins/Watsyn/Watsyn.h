@@ -26,10 +26,10 @@
 #ifndef WATSYN_H
 #define WATSYN_H
 
-#include "Instrument.h"
+#include "core/Instrument.h"
 #include "InstrumentView.h"
 #include "Graph.h"
-#include "AutomatableModel.h"
+#include "core/AutomatableModel.h"
 #include "TempoSyncKnob.h"
 #include <samplerate.h>
 #include "core/MemoryManager.h"

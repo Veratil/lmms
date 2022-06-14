@@ -29,7 +29,7 @@
 
 #include <QMap>
 
-#include "Track.h"
+#include "core/Track.h"
 
 class TrackLabelButton;
 class TrackContainer;

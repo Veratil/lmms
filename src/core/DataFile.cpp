@@ -24,7 +24,7 @@
  */
 
 
-#include "DataFile.h"
+#include "core/DataFile.h"
 
 #include <cmath>
 #include <map>
@@ -36,18 +36,18 @@
 #include <QMessageBox>
 
 #include "core/common.h"
-#include "base64.h"
-#include "ConfigManager.h"
-#include "Effect.h"
+#include "core/base64.h"
+#include "core/ConfigManager.h"
+#include "core/Effect.h"
 #include "embed.h"
 #include "GuiApplication.h"
 #include "LocaleHelper.h"
-#include "PluginFactory.h"
-#include "ProjectVersion.h"
+#include "core/PluginFactory.h"
+#include "core/ProjectVersion.h"
 #include "SongEditor.h"
 #include "TextFloat.h"
-#include "Track.h"
-#include "PathUtil.h"
+#include "core/Track.h"
+#include "core/PathUtil.h"
 
 #include "lmmsversion.h"
 

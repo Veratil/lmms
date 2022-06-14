@@ -26,17 +26,17 @@
 #ifndef INSTRUMENT_TRACK_H
 #define INSTRUMENT_TRACK_H
 
-#include "AudioPort.h"
-#include "InstrumentFunctions.h"
-#include "InstrumentSoundShaping.h"
-#include "Microtuner.h"
+#include "core/audio/AudioPort.h"
+#include "core/InstrumentFunctions.h"
+#include "core/InstrumentSoundShaping.h"
+#include "core/Microtuner.h"
 #include "Midi.h"
 #include "MidiEventProcessor.h"
-#include "MidiPort.h"
-#include "NotePlayHandle.h"
-#include "Piano.h"
-#include "Plugin.h"
-#include "Track.h"
+#include "core/midi/MidiPort.h"
+#include "core/NotePlayHandle.h"
+#include "core/Piano.h"
+#include "core/Plugin.h"
+#include "core/Track.h"
 
 
 class Instrument;

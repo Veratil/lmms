@@ -25,15 +25,15 @@
 #include <QLineEdit>
 #include <QLabel>
 
-#include "AudioPulseAudio.h"
+#include "core/audio/AudioPulseAudio.h"
 
 #ifdef LMMS_HAVE_PULSEAUDIO
 
-#include "ConfigManager.h"
+#include "core/ConfigManager.h"
 #include "LcdSpinBox.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "gui_templates.h"
-#include "Engine.h"
+#include "core/Engine.h"
 
 
 static void stream_write_callback(pa_stream *s, size_t length, void *userdata)

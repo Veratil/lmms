@@ -23,9 +23,9 @@
  *
  */
 
-#include "AudioFileWave.h"
+#include "core/audio/AudioFileWave.h"
 #include "endian_handling.h"
-#include "AudioEngine.h"
+#include "core/AudioEngine.h"
 #include "core/common.h"
 
 

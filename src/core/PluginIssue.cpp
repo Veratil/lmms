@@ -24,7 +24,7 @@
 
 #include <QDebug>
 
-#include "PluginIssue.h"
+#include "core/PluginIssue.h"
 
 const char *PluginIssue::msgFor(const PluginIssueType &it)
 {

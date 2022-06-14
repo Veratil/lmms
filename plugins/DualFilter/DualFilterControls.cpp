@@ -30,7 +30,7 @@
 #include "DualFilterControls.h"
 #include "DualFilter.h"
 #include "embed.h"
-#include "Engine.h"
+#include "core/Engine.h"
 
 DualFilterControls::DualFilterControls( DualFilterEffect* effect ) :
 	EffectControls( effect ),

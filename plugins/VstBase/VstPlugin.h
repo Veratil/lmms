@@ -31,8 +31,8 @@
 #include <QString>
 #include <QTimer>
 
-#include "JournallingObject.h"
-#include "RemotePlugin.h"
+#include "core/JournallingObject.h"
+#include "core/RemotePlugin.h"
 
 #include "vstbase_export.h"
 

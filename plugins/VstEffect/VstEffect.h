@@ -28,7 +28,7 @@
 #include <QMutex>
 #include <QSharedPointer>
 
-#include "Effect.h"
+#include "core/Effect.h"
 #include "VstEffectControls.h"
 
 class VstPlugin;
