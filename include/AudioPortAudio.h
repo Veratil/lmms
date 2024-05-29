@@ -22,8 +22,8 @@
  *
  */
 
-#ifndef AUDIO_PORTAUDIO_H
-#define AUDIO_PORTAUDIO_H
+#ifndef LMMS_AUDIO_PORTAUDIO_H
+#define LMMS_AUDIO_PORTAUDIO_H
 
 #include <QObject>
 
@@ -109,7 +109,6 @@ public:
 private:
 	void startProcessing() override;
 	void stopProcessing() override;
-	void applyQualitySettings() override;
 
 #ifdef PORTAUDIO_V19
 	static int _process_callback( const void *_inputBuffer, void * _outputBuffer,
@@ -163,4 +162,4 @@ private:
 
 } // namespace lmms
 
-#endif
+#endif // LMMS_AUDIO_PORTAUDIO_H

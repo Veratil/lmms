@@ -44,25 +44,6 @@ IF(WIN64)
 		")
 ENDIF()
 
-# Fix windows paths for msys
-IF(LMMS_BUILD_MSYS)
-	STRING(REPLACE "/" "\\\\" CPACK_PACKAGE_ICON "${CPACK_PACKAGE_ICON}")
-	STRING(REPLACE "/" "\\\\" CPACK_NSIS_MUI_ICON "${CPACK_NSIS_MUI_ICON}")
-	STRING(REPLACE "/" "\\\\" CPACK_NSIS_DEFINES "${CPACK_NSIS_DEFINES}")
-	STRING(REPLACE "/" "\\\\" CMAKE_BINARY_DIR_FIX "${CMAKE_BINARY_DIR}")
-	
-	# FIXME: there's no easy way to fix $INST_DIR, so we'll redefine it manually
-	IF(WIN64)
-		SET(NSIS_ARCH "win64")
-	ELSE()
-		SET(NSIS_ARCH "win32")
-	ENDIF()
-	SET(CPACK_NSIS_DEFINES "
-		${CPACK_NSIS_DEFINES} 
-		!define /redef INST_DIR ${CMAKE_BINARY_DIR_FIX}\\\\_CPack_Packages\\\\${NSIS_ARCH}\\\\NSIS\\\\${CPACK_PACKAGE_FILE_NAME}
-	")
-ENDIF()
-
 # Setup missing parent scopes
 SET(CPACK_PACKAGE_FILE_NAME             "${CPACK_PACKAGE_FILE_NAME}" PARENT_SCOPE)
 SET(CPACK_NSIS_DEFINES                  "${CPACK_NSIS_DEFINES}" PARENT_SCOPE)
@@ -72,12 +53,6 @@ SET(CPACK_NSIS_MUI_ICON                 "${CPACK_NSIS_MUI_ICON}" PARENT_SCOPE)
 # Windows resource compilers
 CONFIGURE_FILE("lmms.rc.in"             "${CMAKE_BINARY_DIR}/lmms.rc")
 CONFIGURE_FILE("zynaddsubfx.rc.in"      "${CMAKE_BINARY_DIR}/plugins/ZynAddSubFx/zynaddsubfx.rc")
-
-IF(LMMS_HAVE_STK)
-	FILE(GLOB RAWWAVES "${MINGW_PREFIX}/share/stk/rawwaves/*.raw")
-	LIST(SORT RAWWAVES)
-	INSTALL(FILES ${RAWWAVES} DESTINATION "${DATA_DIR}/stk/rawwaves")
-ENDIF()
 
 INSTALL(FILES "lmms.exe.manifest" DESTINATION .)
 INSTALL(FILES "lmms.VisualElementsManifest.xml" DESTINATION .)
